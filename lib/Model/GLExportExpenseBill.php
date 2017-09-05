@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model;
+namespace Spinen\ConnectWise\Clients\Finance\Model;
 
 use \ArrayAccess;
 
@@ -62,11 +62,11 @@ class GLExportExpenseBill implements ArrayAccess
         'memo' => 'string',
         'gl_class' => 'string',
         'ap_account_number' => 'string',
-        'member' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\MemberReference',
+        'member' => '\Spinen\ConnectWise\Clients\Finance\Model\MemberReference',
         'vendor_number' => 'string',
-        'currency' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference',
+        'currency' => '\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference',
         'total' => 'double',
-        'detail' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportExpenseBillDetail[]'
+        'detail' => '\Spinen\ConnectWise\Clients\Finance\Model\GLExportExpenseBillDetail[]'
     ];
 
     public static function swaggerTypes()
@@ -350,7 +350,7 @@ class GLExportExpenseBill implements ArrayAccess
 
     /**
      * Gets member
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\MemberReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\MemberReference
      */
     public function getMember()
     {
@@ -359,7 +359,7 @@ class GLExportExpenseBill implements ArrayAccess
 
     /**
      * Sets member
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\MemberReference $member
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\MemberReference $member
      * @return $this
      */
     public function setMember($member)
@@ -392,7 +392,7 @@ class GLExportExpenseBill implements ArrayAccess
 
     /**
      * Gets currency
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference
      */
     public function getCurrency()
     {
@@ -401,7 +401,7 @@ class GLExportExpenseBill implements ArrayAccess
 
     /**
      * Sets currency
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference $currency
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference $currency
      * @return $this
      */
     public function setCurrency($currency)
@@ -434,7 +434,7 @@ class GLExportExpenseBill implements ArrayAccess
 
     /**
      * Gets detail
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportExpenseBillDetail[]
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\GLExportExpenseBillDetail[]
      */
     public function getDetail()
     {
@@ -443,7 +443,7 @@ class GLExportExpenseBill implements ArrayAccess
 
     /**
      * Sets detail
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportExpenseBillDetail[] $detail
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\GLExportExpenseBillDetail[] $detail
      * @return $this
      */
     public function setDetail($detail)

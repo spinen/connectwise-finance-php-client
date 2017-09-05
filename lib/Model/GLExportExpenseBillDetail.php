@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model;
+namespace Spinen\ConnectWise\Clients\Finance\Model;
 
 use \ArrayAccess;
 
@@ -59,10 +59,10 @@ class GLExportExpenseBillDetail implements ArrayAccess
         'document_date' => 'string',
         'gl_type_id' => 'string',
         'memo' => 'string',
-        'company' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference',
+        'company' => '\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference',
         'account_number' => 'string',
-        'expense_class' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ClassificationReference',
-        'currency' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference',
+        'expense_class' => '\Spinen\ConnectWise\Clients\Finance\Model\ClassificationReference',
+        'currency' => '\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference',
         'total' => 'double',
         'billable' => 'bool',
         'reimbursable' => 'bool',
@@ -287,7 +287,7 @@ class GLExportExpenseBillDetail implements ArrayAccess
 
     /**
      * Gets company
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\CompanyReference
      */
     public function getCompany()
     {
@@ -296,7 +296,7 @@ class GLExportExpenseBillDetail implements ArrayAccess
 
     /**
      * Sets company
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference $company
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\CompanyReference $company
      * @return $this
      */
     public function setCompany($company)
@@ -329,7 +329,7 @@ class GLExportExpenseBillDetail implements ArrayAccess
 
     /**
      * Gets expense_class
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ClassificationReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\ClassificationReference
      */
     public function getExpenseClass()
     {
@@ -338,7 +338,7 @@ class GLExportExpenseBillDetail implements ArrayAccess
 
     /**
      * Sets expense_class
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ClassificationReference $expense_class
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\ClassificationReference $expense_class
      * @return $this
      */
     public function setExpenseClass($expense_class)
@@ -350,7 +350,7 @@ class GLExportExpenseBillDetail implements ArrayAccess
 
     /**
      * Gets currency
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference
      */
     public function getCurrency()
     {
@@ -359,7 +359,7 @@ class GLExportExpenseBillDetail implements ArrayAccess
 
     /**
      * Sets currency
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference $currency
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference $currency
      * @return $this
      */
     public function setCurrency($currency)

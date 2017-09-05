@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model;
+namespace Spinen\ConnectWise\Clients\Finance\Model;
 
 use \ArrayAccess;
 
@@ -58,29 +58,29 @@ class UnpostedExpense implements ArrayAccess
         'id' => 'int',
         'location_id' => 'int',
         'department_id' => 'int',
-        'company' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference',
+        'company' => '\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference',
         'account_number' => 'string',
         'credit_account' => 'string',
         'expense_detail_id' => 'int',
-        'expense_type' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ExpenseTypeReference',
+        'expense_type' => '\Spinen\ConnectWise\Clients\Finance\Model\ExpenseTypeReference',
         'classification' => 'string',
         'gl_type' => 'string',
-        'member' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\MemberReference',
+        'member' => '\Spinen\ConnectWise\Clients\Finance\Model\MemberReference',
         'date_expense' => '\DateTime',
-        'charge_code' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ChargeCodeReference',
+        'charge_code' => '\Spinen\ConnectWise\Clients\Finance\Model\ChargeCodeReference',
         'charge_description' => 'string',
         'in_policy' => 'bool',
-        'payment_method' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PaymentMethodReference',
-        'currency' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference',
+        'payment_method' => '\Spinen\ConnectWise\Clients\Finance\Model\PaymentMethodReference',
+        'currency' => '\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference',
         'total' => 'double',
         'billable_amount' => 'double',
         'non_billable_amount' => 'double',
-        'agreement' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementReference',
+        'agreement' => '\Spinen\ConnectWise\Clients\Finance\Model\AgreementReference',
         'agreement_amount_covered' => 'double',
-        'ticket' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\TicketReference',
-        'project' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ProjectReference',
-        'project_phase' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ProjectPhaseReference',
-        'tax_code' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference',
+        'ticket' => '\Spinen\ConnectWise\Clients\Finance\Model\TicketReference',
+        'project' => '\Spinen\ConnectWise\Clients\Finance\Model\ProjectReference',
+        'project_phase' => '\Spinen\ConnectWise\Clients\Finance\Model\ProjectPhaseReference',
+        'tax_code' => '\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference',
         'avalara_tax_flag' => 'bool',
         'item_taxable_flag' => 'bool',
         'sales_tax_amount' => 'double',
@@ -100,7 +100,7 @@ class UnpostedExpense implements ArrayAccess
         'composite_tax_xref' => 'string',
         'composite_tax_amount' => 'double',
         'date_closed' => '\DateTime',
-        '_info' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Finance\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -520,7 +520,7 @@ class UnpostedExpense implements ArrayAccess
 
     /**
      * Gets company
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\CompanyReference
      */
     public function getCompany()
     {
@@ -529,7 +529,7 @@ class UnpostedExpense implements ArrayAccess
 
     /**
      * Sets company
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference $company
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\CompanyReference $company
      * @return $this
      */
     public function setCompany($company)
@@ -604,7 +604,7 @@ class UnpostedExpense implements ArrayAccess
 
     /**
      * Gets expense_type
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ExpenseTypeReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\ExpenseTypeReference
      */
     public function getExpenseType()
     {
@@ -613,7 +613,7 @@ class UnpostedExpense implements ArrayAccess
 
     /**
      * Sets expense_type
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ExpenseTypeReference $expense_type
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\ExpenseTypeReference $expense_type
      * @return $this
      */
     public function setExpenseType($expense_type)
@@ -675,7 +675,7 @@ class UnpostedExpense implements ArrayAccess
 
     /**
      * Gets member
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\MemberReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\MemberReference
      */
     public function getMember()
     {
@@ -684,7 +684,7 @@ class UnpostedExpense implements ArrayAccess
 
     /**
      * Sets member
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\MemberReference $member
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\MemberReference $member
      * @return $this
      */
     public function setMember($member)
@@ -717,7 +717,7 @@ class UnpostedExpense implements ArrayAccess
 
     /**
      * Gets charge_code
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ChargeCodeReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\ChargeCodeReference
      */
     public function getChargeCode()
     {
@@ -726,7 +726,7 @@ class UnpostedExpense implements ArrayAccess
 
     /**
      * Sets charge_code
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ChargeCodeReference $charge_code
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\ChargeCodeReference $charge_code
      * @return $this
      */
     public function setChargeCode($charge_code)
@@ -780,7 +780,7 @@ class UnpostedExpense implements ArrayAccess
 
     /**
      * Gets payment_method
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PaymentMethodReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\PaymentMethodReference
      */
     public function getPaymentMethod()
     {
@@ -789,7 +789,7 @@ class UnpostedExpense implements ArrayAccess
 
     /**
      * Sets payment_method
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PaymentMethodReference $payment_method
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\PaymentMethodReference $payment_method
      * @return $this
      */
     public function setPaymentMethod($payment_method)
@@ -801,7 +801,7 @@ class UnpostedExpense implements ArrayAccess
 
     /**
      * Gets currency
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference
      */
     public function getCurrency()
     {
@@ -810,7 +810,7 @@ class UnpostedExpense implements ArrayAccess
 
     /**
      * Sets currency
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference $currency
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference $currency
      * @return $this
      */
     public function setCurrency($currency)
@@ -885,7 +885,7 @@ class UnpostedExpense implements ArrayAccess
 
     /**
      * Gets agreement
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\AgreementReference
      */
     public function getAgreement()
     {
@@ -894,7 +894,7 @@ class UnpostedExpense implements ArrayAccess
 
     /**
      * Sets agreement
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementReference $agreement
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\AgreementReference $agreement
      * @return $this
      */
     public function setAgreement($agreement)
@@ -927,7 +927,7 @@ class UnpostedExpense implements ArrayAccess
 
     /**
      * Gets ticket
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\TicketReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\TicketReference
      */
     public function getTicket()
     {
@@ -936,7 +936,7 @@ class UnpostedExpense implements ArrayAccess
 
     /**
      * Sets ticket
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\TicketReference $ticket
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\TicketReference $ticket
      * @return $this
      */
     public function setTicket($ticket)
@@ -948,7 +948,7 @@ class UnpostedExpense implements ArrayAccess
 
     /**
      * Gets project
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ProjectReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\ProjectReference
      */
     public function getProject()
     {
@@ -957,7 +957,7 @@ class UnpostedExpense implements ArrayAccess
 
     /**
      * Sets project
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ProjectReference $project
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\ProjectReference $project
      * @return $this
      */
     public function setProject($project)
@@ -969,7 +969,7 @@ class UnpostedExpense implements ArrayAccess
 
     /**
      * Gets project_phase
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ProjectPhaseReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\ProjectPhaseReference
      */
     public function getProjectPhase()
     {
@@ -978,7 +978,7 @@ class UnpostedExpense implements ArrayAccess
 
     /**
      * Sets project_phase
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ProjectPhaseReference $project_phase
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\ProjectPhaseReference $project_phase
      * @return $this
      */
     public function setProjectPhase($project_phase)
@@ -990,7 +990,7 @@ class UnpostedExpense implements ArrayAccess
 
     /**
      * Gets tax_code
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference
      */
     public function getTaxCode()
     {
@@ -999,7 +999,7 @@ class UnpostedExpense implements ArrayAccess
 
     /**
      * Sets tax_code
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference $tax_code
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference $tax_code
      * @return $this
      */
     public function setTaxCode($tax_code)
@@ -1410,7 +1410,7 @@ class UnpostedExpense implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\Metadata
      */
     public function getInfo()
     {
@@ -1419,7 +1419,7 @@ class UnpostedExpense implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

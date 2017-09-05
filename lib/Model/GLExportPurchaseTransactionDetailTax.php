@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model;
+namespace Spinen\ConnectWise\Clients\Finance\Model;
 
 use \ArrayAccess;
 
@@ -74,25 +74,25 @@ class GLExportPurchaseTransactionDetailTax implements ArrayAccess
         'uom_schedule_xref' => 'string',
         'price_level_xref' => 'string',
         'location_xref' => 'string',
-        'item' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\IvItemReference',
+        'item' => '\Spinen\ConnectWise\Clients\Finance\Model\IvItemReference',
         'taxable_flag' => 'bool',
         'sales_description' => 'string',
         'item_description' => 'string',
         'item_price' => 'double',
         'item_cost' => 'double',
-        'unit_of_measure' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\UnitOfMeasureReference',
+        'unit_of_measure' => '\Spinen\ConnectWise\Clients\Finance\Model\UnitOfMeasureReference',
         'quantity' => 'double',
         'total' => 'double',
-        'currency' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference',
+        'currency' => '\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference',
         'serialized_flag' => 'bool',
         'serial_numbers' => 'string',
         'drop_shipped_flag' => 'bool',
         'line_number' => 'int',
-        'warehouse_site' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\SiteReference',
-        'warehouse_bin' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\WarehouseBinReference',
-        'shipment_method' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ShipmentMethodReference',
-        'sub_category' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ProductSubCategoryReference',
-        'tax_code' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference',
+        'warehouse_site' => '\Spinen\ConnectWise\Clients\Finance\Model\SiteReference',
+        'warehouse_bin' => '\Spinen\ConnectWise\Clients\Finance\Model\WarehouseBinReference',
+        'shipment_method' => '\Spinen\ConnectWise\Clients\Finance\Model\ShipmentMethodReference',
+        'sub_category' => '\Spinen\ConnectWise\Clients\Finance\Model\ProductSubCategoryReference',
+        'tax_code' => '\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference',
         'tax_rate' => 'double',
         'tax_rate_percent' => 'double',
         'tax_agency_xref' => 'string',
@@ -757,7 +757,7 @@ class GLExportPurchaseTransactionDetailTax implements ArrayAccess
 
     /**
      * Gets item
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\IvItemReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\IvItemReference
      */
     public function getItem()
     {
@@ -766,7 +766,7 @@ class GLExportPurchaseTransactionDetailTax implements ArrayAccess
 
     /**
      * Sets item
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\IvItemReference $item
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\IvItemReference $item
      * @return $this
      */
     public function setItem($item)
@@ -883,7 +883,7 @@ class GLExportPurchaseTransactionDetailTax implements ArrayAccess
 
     /**
      * Gets unit_of_measure
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\UnitOfMeasureReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\UnitOfMeasureReference
      */
     public function getUnitOfMeasure()
     {
@@ -892,7 +892,7 @@ class GLExportPurchaseTransactionDetailTax implements ArrayAccess
 
     /**
      * Sets unit_of_measure
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\UnitOfMeasureReference $unit_of_measure
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\UnitOfMeasureReference $unit_of_measure
      * @return $this
      */
     public function setUnitOfMeasure($unit_of_measure)
@@ -946,7 +946,7 @@ class GLExportPurchaseTransactionDetailTax implements ArrayAccess
 
     /**
      * Gets currency
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference
      */
     public function getCurrency()
     {
@@ -955,7 +955,7 @@ class GLExportPurchaseTransactionDetailTax implements ArrayAccess
 
     /**
      * Sets currency
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference $currency
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference $currency
      * @return $this
      */
     public function setCurrency($currency)
@@ -1051,7 +1051,7 @@ class GLExportPurchaseTransactionDetailTax implements ArrayAccess
 
     /**
      * Gets warehouse_site
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\SiteReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\SiteReference
      */
     public function getWarehouseSite()
     {
@@ -1060,7 +1060,7 @@ class GLExportPurchaseTransactionDetailTax implements ArrayAccess
 
     /**
      * Sets warehouse_site
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\SiteReference $warehouse_site
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\SiteReference $warehouse_site
      * @return $this
      */
     public function setWarehouseSite($warehouse_site)
@@ -1072,7 +1072,7 @@ class GLExportPurchaseTransactionDetailTax implements ArrayAccess
 
     /**
      * Gets warehouse_bin
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\WarehouseBinReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\WarehouseBinReference
      */
     public function getWarehouseBin()
     {
@@ -1081,7 +1081,7 @@ class GLExportPurchaseTransactionDetailTax implements ArrayAccess
 
     /**
      * Sets warehouse_bin
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\WarehouseBinReference $warehouse_bin
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\WarehouseBinReference $warehouse_bin
      * @return $this
      */
     public function setWarehouseBin($warehouse_bin)
@@ -1093,7 +1093,7 @@ class GLExportPurchaseTransactionDetailTax implements ArrayAccess
 
     /**
      * Gets shipment_method
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ShipmentMethodReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\ShipmentMethodReference
      */
     public function getShipmentMethod()
     {
@@ -1102,7 +1102,7 @@ class GLExportPurchaseTransactionDetailTax implements ArrayAccess
 
     /**
      * Sets shipment_method
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ShipmentMethodReference $shipment_method
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\ShipmentMethodReference $shipment_method
      * @return $this
      */
     public function setShipmentMethod($shipment_method)
@@ -1114,7 +1114,7 @@ class GLExportPurchaseTransactionDetailTax implements ArrayAccess
 
     /**
      * Gets sub_category
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ProductSubCategoryReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\ProductSubCategoryReference
      */
     public function getSubCategory()
     {
@@ -1123,7 +1123,7 @@ class GLExportPurchaseTransactionDetailTax implements ArrayAccess
 
     /**
      * Sets sub_category
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ProductSubCategoryReference $sub_category
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\ProductSubCategoryReference $sub_category
      * @return $this
      */
     public function setSubCategory($sub_category)
@@ -1135,7 +1135,7 @@ class GLExportPurchaseTransactionDetailTax implements ArrayAccess
 
     /**
      * Gets tax_code
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference
      */
     public function getTaxCode()
     {
@@ -1144,7 +1144,7 @@ class GLExportPurchaseTransactionDetailTax implements ArrayAccess
 
     /**
      * Sets tax_code
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference $tax_code
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference $tax_code
      * @return $this
      */
     public function setTaxCode($tax_code)

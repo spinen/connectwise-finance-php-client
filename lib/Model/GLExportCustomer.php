@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model;
+namespace Spinen\ConnectWise\Clients\Finance\Model;
 
 use \ArrayAccess;
 
@@ -55,17 +55,17 @@ class GLExportCustomer implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'company' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference',
-        'company_type' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyTypeReference',
-        'contact' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ContactReference',
-        'site' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\SiteReference',
+        'company' => '\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference',
+        'company_type' => '\Spinen\ConnectWise\Clients\Finance\Model\CompanyTypeReference',
+        'contact' => '\Spinen\ConnectWise\Clients\Finance\Model\ContactReference',
+        'site' => '\Spinen\ConnectWise\Clients\Finance\Model\SiteReference',
         'account_number' => 'string',
-        'billing_terms' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BillingTermsReference',
+        'billing_terms' => '\Spinen\ConnectWise\Clients\Finance\Model\BillingTermsReference',
         'billing_terms_xref' => 'string',
         'due_days' => 'int',
         'taxable' => 'bool',
-        'tax_code' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference',
-        'currency' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference',
+        'tax_code' => '\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference',
+        'currency' => '\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference',
         'state_tax_xref' => 'string',
         'county_tax_xref' => 'string',
         'city_tax_xref' => 'string',
@@ -283,7 +283,7 @@ class GLExportCustomer implements ArrayAccess
 
     /**
      * Gets company
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\CompanyReference
      */
     public function getCompany()
     {
@@ -292,7 +292,7 @@ class GLExportCustomer implements ArrayAccess
 
     /**
      * Sets company
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference $company
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\CompanyReference $company
      * @return $this
      */
     public function setCompany($company)
@@ -304,7 +304,7 @@ class GLExportCustomer implements ArrayAccess
 
     /**
      * Gets company_type
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyTypeReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\CompanyTypeReference
      */
     public function getCompanyType()
     {
@@ -313,7 +313,7 @@ class GLExportCustomer implements ArrayAccess
 
     /**
      * Sets company_type
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyTypeReference $company_type
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\CompanyTypeReference $company_type
      * @return $this
      */
     public function setCompanyType($company_type)
@@ -325,7 +325,7 @@ class GLExportCustomer implements ArrayAccess
 
     /**
      * Gets contact
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ContactReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\ContactReference
      */
     public function getContact()
     {
@@ -334,7 +334,7 @@ class GLExportCustomer implements ArrayAccess
 
     /**
      * Sets contact
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ContactReference $contact
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\ContactReference $contact
      * @return $this
      */
     public function setContact($contact)
@@ -346,7 +346,7 @@ class GLExportCustomer implements ArrayAccess
 
     /**
      * Gets site
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\SiteReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\SiteReference
      */
     public function getSite()
     {
@@ -355,7 +355,7 @@ class GLExportCustomer implements ArrayAccess
 
     /**
      * Sets site
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\SiteReference $site
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\SiteReference $site
      * @return $this
      */
     public function setSite($site)
@@ -388,7 +388,7 @@ class GLExportCustomer implements ArrayAccess
 
     /**
      * Gets billing_terms
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BillingTermsReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\BillingTermsReference
      */
     public function getBillingTerms()
     {
@@ -397,7 +397,7 @@ class GLExportCustomer implements ArrayAccess
 
     /**
      * Sets billing_terms
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BillingTermsReference $billing_terms
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\BillingTermsReference $billing_terms
      * @return $this
      */
     public function setBillingTerms($billing_terms)
@@ -472,7 +472,7 @@ class GLExportCustomer implements ArrayAccess
 
     /**
      * Gets tax_code
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference
      */
     public function getTaxCode()
     {
@@ -481,7 +481,7 @@ class GLExportCustomer implements ArrayAccess
 
     /**
      * Sets tax_code
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference $tax_code
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference $tax_code
      * @return $this
      */
     public function setTaxCode($tax_code)
@@ -493,7 +493,7 @@ class GLExportCustomer implements ArrayAccess
 
     /**
      * Gets currency
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference
      */
     public function getCurrency()
     {
@@ -502,7 +502,7 @@ class GLExportCustomer implements ArrayAccess
 
     /**
      * Sets currency
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference $currency
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference $currency
      * @return $this
      */
     public function setCurrency($currency)

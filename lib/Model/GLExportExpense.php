@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model;
+namespace Spinen\ConnectWise\Clients\Finance\Model;
 
 use \ArrayAccess;
 
@@ -67,14 +67,14 @@ class GLExportExpense implements ArrayAccess
         'description' => 'string',
         'period_start_date' => '\DateTime',
         'period_end_date' => '\DateTime',
-        'member' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\MemberReference',
+        'member' => '\Spinen\ConnectWise\Clients\Finance\Model\MemberReference',
         'vendor_number' => 'string',
-        'company' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference',
+        'company' => '\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference',
         'company_account_number' => 'string',
-        'project' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ProjectReference',
-        'currency' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference',
+        'project' => '\Spinen\ConnectWise\Clients\Finance\Model\ProjectReference',
+        'currency' => '\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference',
         'total' => 'double',
-        'offset' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportExpenseOffset'
+        'offset' => '\Spinen\ConnectWise\Clients\Finance\Model\GLExportExpenseOffset'
     ];
 
     public static function swaggerTypes()
@@ -495,7 +495,7 @@ class GLExportExpense implements ArrayAccess
 
     /**
      * Gets member
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\MemberReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\MemberReference
      */
     public function getMember()
     {
@@ -504,7 +504,7 @@ class GLExportExpense implements ArrayAccess
 
     /**
      * Sets member
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\MemberReference $member
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\MemberReference $member
      * @return $this
      */
     public function setMember($member)
@@ -537,7 +537,7 @@ class GLExportExpense implements ArrayAccess
 
     /**
      * Gets company
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\CompanyReference
      */
     public function getCompany()
     {
@@ -546,7 +546,7 @@ class GLExportExpense implements ArrayAccess
 
     /**
      * Sets company
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference $company
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\CompanyReference $company
      * @return $this
      */
     public function setCompany($company)
@@ -579,7 +579,7 @@ class GLExportExpense implements ArrayAccess
 
     /**
      * Gets project
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ProjectReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\ProjectReference
      */
     public function getProject()
     {
@@ -588,7 +588,7 @@ class GLExportExpense implements ArrayAccess
 
     /**
      * Sets project
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ProjectReference $project
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\ProjectReference $project
      * @return $this
      */
     public function setProject($project)
@@ -600,7 +600,7 @@ class GLExportExpense implements ArrayAccess
 
     /**
      * Gets currency
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference
      */
     public function getCurrency()
     {
@@ -609,7 +609,7 @@ class GLExportExpense implements ArrayAccess
 
     /**
      * Sets currency
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference $currency
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference $currency
      * @return $this
      */
     public function setCurrency($currency)
@@ -642,7 +642,7 @@ class GLExportExpense implements ArrayAccess
 
     /**
      * Gets offset
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportExpenseOffset
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\GLExportExpenseOffset
      */
     public function getOffset()
     {
@@ -651,7 +651,7 @@ class GLExportExpense implements ArrayAccess
 
     /**
      * Sets offset
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportExpenseOffset $offset
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\GLExportExpenseOffset $offset
      * @return $this
      */
     public function setOffset($offset)

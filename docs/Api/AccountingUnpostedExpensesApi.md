@@ -11,7 +11,7 @@ Method | HTTP request | Description
 
 
 # **financeAccountingUnpostedexpensesCountGet**
-> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count financeAccountingUnpostedexpensesCountGet($conditions)
+> \Spinen\ConnectWise\Clients\Finance\Model\Count financeAccountingUnpostedexpensesCountGet($conditions)
 
 
 
@@ -46,7 +46,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Finance\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -60,7 +60,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAccountingUnpostedexpensesGet**
-> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\UnpostedExpense[] financeAccountingUnpostedexpensesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Finance\Model\UnpostedExpense[] financeAccountingUnpostedexpensesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -105,7 +105,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\UnpostedExpense[]**](../Model/UnpostedExpense.md)
+[**\Spinen\ConnectWise\Clients\Finance\Model\UnpostedExpense[]**](../Model/UnpostedExpense.md)
 
 ### Authorization
 
@@ -119,7 +119,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAccountingUnpostedexpensesIdGet**
-> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\UnpostedExpense financeAccountingUnpostedexpensesIdGet($id)
+> \Spinen\ConnectWise\Clients\Finance\Model\UnpostedExpense financeAccountingUnpostedexpensesIdGet($id)
 
 
 
@@ -154,7 +154,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\UnpostedExpense**](../Model/UnpostedExpense.md)
+[**\Spinen\ConnectWise\Clients\Finance\Model\UnpostedExpense**](../Model/UnpostedExpense.md)
 
 ### Authorization
 

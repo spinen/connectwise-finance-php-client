@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **financeAgreementsIdWorkrolesCountGet**
-> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count financeAgreementsIdWorkrolesCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Finance\Model\Count financeAgreementsIdWorkrolesCountGet($id, $conditions)
 
 
 
@@ -52,7 +52,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Finance\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -66,7 +66,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAgreementsIdWorkrolesGet**
-> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole[] financeAgreementsIdWorkrolesGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole[] financeAgreementsIdWorkrolesGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -113,7 +113,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole[]**](../Model/AgreementWorkRole.md)
+[**\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole[]**](../Model/AgreementWorkRole.md)
 
 ### Authorization
 
@@ -127,7 +127,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAgreementsIdWorkrolesPost**
-> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole financeAgreementsIdWorkrolesPost($id, $work_role)
+> \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole financeAgreementsIdWorkrolesPost($id, $work_role)
 
 
 
@@ -144,7 +144,7 @@ Spinen\ConnectWise\Clients\Finance\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Finance\Api\AgreementWorkRolesApi();
 $id = 56; // int | 
-$work_role = new \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole(); // \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole | 
+$work_role = new \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole(); // \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole | 
 
 try {
     $result = $api_instance->financeAgreementsIdWorkrolesPost($id, $work_role);
@@ -160,11 +160,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **work_role** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole**](../Model/\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole.md)|  |
+ **work_role** | [**\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole**](../Model/\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole**](../Model/AgreementWorkRole.md)
+[**\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole**](../Model/AgreementWorkRole.md)
 
 ### Authorization
 
@@ -228,7 +228,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAgreementsIdWorkrolesWorkRoleIdGet**
-> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole financeAgreementsIdWorkrolesWorkRoleIdGet($id, $work_role_id)
+> \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole financeAgreementsIdWorkrolesWorkRoleIdGet($id, $work_role_id)
 
 
 
@@ -265,7 +265,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole**](../Model/AgreementWorkRole.md)
+[**\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole**](../Model/AgreementWorkRole.md)
 
 ### Authorization
 
@@ -279,7 +279,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAgreementsIdWorkrolesWorkRoleIdPatch**
-> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole financeAgreementsIdWorkrolesWorkRoleIdPatch($id, $work_role_id, $operations)
+> \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole financeAgreementsIdWorkrolesWorkRoleIdPatch($id, $work_role_id, $operations)
 
 
 
@@ -297,7 +297,7 @@ Spinen\ConnectWise\Clients\Finance\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Finance\Api\AgreementWorkRolesApi();
 $id = 56; // int | 
 $work_role_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->financeAgreementsIdWorkrolesWorkRoleIdPatch($id, $work_role_id, $operations);
@@ -314,11 +314,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **work_role_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole**](../Model/AgreementWorkRole.md)
+[**\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole**](../Model/AgreementWorkRole.md)
 
 ### Authorization
 
@@ -332,7 +332,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAgreementsIdWorkrolesWorkRoleIdPut**
-> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole financeAgreementsIdWorkrolesWorkRoleIdPut($id, $work_role_id, $work_role)
+> \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole financeAgreementsIdWorkrolesWorkRoleIdPut($id, $work_role_id, $work_role)
 
 
 
@@ -350,7 +350,7 @@ Spinen\ConnectWise\Clients\Finance\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Finance\Api\AgreementWorkRolesApi();
 $id = 56; // int | 
 $work_role_id = 56; // int | 
-$work_role = new \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole(); // \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole | 
+$work_role = new \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole(); // \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole | 
 
 try {
     $result = $api_instance->financeAgreementsIdWorkrolesWorkRoleIdPut($id, $work_role_id, $work_role);
@@ -367,11 +367,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **work_role_id** | **int**|  |
- **work_role** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole**](../Model/\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole.md)|  |
+ **work_role** | [**\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole**](../Model/\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole**](../Model/AgreementWorkRole.md)
+[**\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole**](../Model/AgreementWorkRole.md)
 
 ### Authorization
 

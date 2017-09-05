@@ -65,7 +65,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAgreementsIdAdditionsAdditionIdGet**
-> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition financeAgreementsIdAdditionsAdditionIdGet($id, $addition_id)
+> \Spinen\ConnectWise\Clients\Finance\Model\Addition financeAgreementsIdAdditionsAdditionIdGet($id, $addition_id)
 
 
 
@@ -102,7 +102,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition**](../Model/Addition.md)
+[**\Spinen\ConnectWise\Clients\Finance\Model\Addition**](../Model/Addition.md)
 
 ### Authorization
 
@@ -116,7 +116,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAgreementsIdAdditionsAdditionIdPatch**
-> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition financeAgreementsIdAdditionsAdditionIdPatch($id, $addition_id, $operations)
+> \Spinen\ConnectWise\Clients\Finance\Model\Addition financeAgreementsIdAdditionsAdditionIdPatch($id, $addition_id, $operations)
 
 
 
@@ -134,7 +134,7 @@ Spinen\ConnectWise\Clients\Finance\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Finance\Api\AgreementAdditionsApi();
 $id = 56; // int | 
 $addition_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->financeAgreementsIdAdditionsAdditionIdPatch($id, $addition_id, $operations);
@@ -151,11 +151,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **addition_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition**](../Model/Addition.md)
+[**\Spinen\ConnectWise\Clients\Finance\Model\Addition**](../Model/Addition.md)
 
 ### Authorization
 
@@ -169,7 +169,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAgreementsIdAdditionsAdditionIdPut**
-> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition financeAgreementsIdAdditionsAdditionIdPut($id, $addition_id, $addition)
+> \Spinen\ConnectWise\Clients\Finance\Model\Addition financeAgreementsIdAdditionsAdditionIdPut($id, $addition_id, $addition)
 
 
 
@@ -187,7 +187,7 @@ Spinen\ConnectWise\Clients\Finance\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Finance\Api\AgreementAdditionsApi();
 $id = 56; // int | 
 $addition_id = 56; // int | 
-$addition = new \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition(); // \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition | 
+$addition = new \Spinen\ConnectWise\Clients\Finance\Model\Addition(); // \Spinen\ConnectWise\Clients\Finance\Model\Addition | 
 
 try {
     $result = $api_instance->financeAgreementsIdAdditionsAdditionIdPut($id, $addition_id, $addition);
@@ -204,11 +204,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **addition_id** | **int**|  |
- **addition** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition**](../Model/\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition.md)|  |
+ **addition** | [**\Spinen\ConnectWise\Clients\Finance\Model\Addition**](../Model/\Spinen\ConnectWise\Clients\Finance\Model\Addition.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition**](../Model/Addition.md)
+[**\Spinen\ConnectWise\Clients\Finance\Model\Addition**](../Model/Addition.md)
 
 ### Authorization
 
@@ -222,7 +222,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAgreementsIdAdditionsCountGet**
-> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count financeAgreementsIdAdditionsCountGet($id, $conditions, $custom_field_conditions)
+> \Spinen\ConnectWise\Clients\Finance\Model\Count financeAgreementsIdAdditionsCountGet($id, $conditions, $custom_field_conditions)
 
 
 
@@ -261,7 +261,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Finance\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -275,7 +275,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAgreementsIdAdditionsGet**
-> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition[] financeAgreementsIdAdditionsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Finance\Model\Addition[] financeAgreementsIdAdditionsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -322,7 +322,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition[]**](../Model/Addition.md)
+[**\Spinen\ConnectWise\Clients\Finance\Model\Addition[]**](../Model/Addition.md)
 
 ### Authorization
 
@@ -336,7 +336,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAgreementsIdAdditionsPost**
-> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition financeAgreementsIdAdditionsPost($id, $addition)
+> \Spinen\ConnectWise\Clients\Finance\Model\Addition financeAgreementsIdAdditionsPost($id, $addition)
 
 
 
@@ -353,7 +353,7 @@ Spinen\ConnectWise\Clients\Finance\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Finance\Api\AgreementAdditionsApi();
 $id = 56; // int | 
-$addition = new \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition(); // \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition | 
+$addition = new \Spinen\ConnectWise\Clients\Finance\Model\Addition(); // \Spinen\ConnectWise\Clients\Finance\Model\Addition | 
 
 try {
     $result = $api_instance->financeAgreementsIdAdditionsPost($id, $addition);
@@ -369,11 +369,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **addition** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition**](../Model/\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition.md)|  |
+ **addition** | [**\Spinen\ConnectWise\Clients\Finance\Model\Addition**](../Model/\Spinen\ConnectWise\Clients\Finance\Model\Addition.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition**](../Model/Addition.md)
+[**\Spinen\ConnectWise\Clients\Finance\Model\Addition**](../Model/Addition.md)
 
 ### Authorization
 

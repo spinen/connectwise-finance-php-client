@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model;
+namespace Spinen\ConnectWise\Clients\Finance\Model;
 
 use \ArrayAccess;
 
@@ -55,15 +55,15 @@ class GLExport implements ArrayAccess
       * @var string[]
       */
     protected static $swaggerTypes = [
-        'export_settings' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportSettings',
-        'vendors' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportVendor[]',
-        'customers' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportCustomer[]',
-        'transactions' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportTransaction[]',
-        'expenses' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportExpense[]',
-        'expense_bills' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportExpenseBill[]',
-        'purchase_transactions' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportPurchaseTransaction[]',
-        'adjustment_transactions' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportAdjustmentTransaction[]',
-        'inventory_transfers' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportInventoryTransfer[]'
+        'export_settings' => '\Spinen\ConnectWise\Clients\Finance\Model\GLExportSettings',
+        'vendors' => '\Spinen\ConnectWise\Clients\Finance\Model\GLExportVendor[]',
+        'customers' => '\Spinen\ConnectWise\Clients\Finance\Model\GLExportCustomer[]',
+        'transactions' => '\Spinen\ConnectWise\Clients\Finance\Model\GLExportTransaction[]',
+        'expenses' => '\Spinen\ConnectWise\Clients\Finance\Model\GLExportExpense[]',
+        'expense_bills' => '\Spinen\ConnectWise\Clients\Finance\Model\GLExportExpenseBill[]',
+        'purchase_transactions' => '\Spinen\ConnectWise\Clients\Finance\Model\GLExportPurchaseTransaction[]',
+        'adjustment_transactions' => '\Spinen\ConnectWise\Clients\Finance\Model\GLExportAdjustmentTransaction[]',
+        'inventory_transfers' => '\Spinen\ConnectWise\Clients\Finance\Model\GLExportInventoryTransfer[]'
     ];
 
     public static function swaggerTypes()
@@ -188,7 +188,7 @@ class GLExport implements ArrayAccess
 
     /**
      * Gets export_settings
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportSettings
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\GLExportSettings
      */
     public function getExportSettings()
     {
@@ -197,7 +197,7 @@ class GLExport implements ArrayAccess
 
     /**
      * Sets export_settings
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportSettings $export_settings Mapped to GlPreferences Class
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\GLExportSettings $export_settings Mapped to GlPreferences Class
      * @return $this
      */
     public function setExportSettings($export_settings)
@@ -209,7 +209,7 @@ class GLExport implements ArrayAccess
 
     /**
      * Gets vendors
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportVendor[]
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\GLExportVendor[]
      */
     public function getVendors()
     {
@@ -218,7 +218,7 @@ class GLExport implements ArrayAccess
 
     /**
      * Sets vendors
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportVendor[] $vendors
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\GLExportVendor[] $vendors
      * @return $this
      */
     public function setVendors($vendors)
@@ -230,7 +230,7 @@ class GLExport implements ArrayAccess
 
     /**
      * Gets customers
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportCustomer[]
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\GLExportCustomer[]
      */
     public function getCustomers()
     {
@@ -239,7 +239,7 @@ class GLExport implements ArrayAccess
 
     /**
      * Sets customers
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportCustomer[] $customers
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\GLExportCustomer[] $customers
      * @return $this
      */
     public function setCustomers($customers)
@@ -251,7 +251,7 @@ class GLExport implements ArrayAccess
 
     /**
      * Gets transactions
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportTransaction[]
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\GLExportTransaction[]
      */
     public function getTransactions()
     {
@@ -260,7 +260,7 @@ class GLExport implements ArrayAccess
 
     /**
      * Sets transactions
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportTransaction[] $transactions
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\GLExportTransaction[] $transactions
      * @return $this
      */
     public function setTransactions($transactions)
@@ -272,7 +272,7 @@ class GLExport implements ArrayAccess
 
     /**
      * Gets expenses
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportExpense[]
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\GLExportExpense[]
      */
     public function getExpenses()
     {
@@ -281,7 +281,7 @@ class GLExport implements ArrayAccess
 
     /**
      * Sets expenses
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportExpense[] $expenses
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\GLExportExpense[] $expenses
      * @return $this
      */
     public function setExpenses($expenses)
@@ -293,7 +293,7 @@ class GLExport implements ArrayAccess
 
     /**
      * Gets expense_bills
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportExpenseBill[]
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\GLExportExpenseBill[]
      */
     public function getExpenseBills()
     {
@@ -302,7 +302,7 @@ class GLExport implements ArrayAccess
 
     /**
      * Sets expense_bills
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportExpenseBill[] $expense_bills
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\GLExportExpenseBill[] $expense_bills
      * @return $this
      */
     public function setExpenseBills($expense_bills)
@@ -314,7 +314,7 @@ class GLExport implements ArrayAccess
 
     /**
      * Gets purchase_transactions
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportPurchaseTransaction[]
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\GLExportPurchaseTransaction[]
      */
     public function getPurchaseTransactions()
     {
@@ -323,7 +323,7 @@ class GLExport implements ArrayAccess
 
     /**
      * Sets purchase_transactions
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportPurchaseTransaction[] $purchase_transactions
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\GLExportPurchaseTransaction[] $purchase_transactions
      * @return $this
      */
     public function setPurchaseTransactions($purchase_transactions)
@@ -335,7 +335,7 @@ class GLExport implements ArrayAccess
 
     /**
      * Gets adjustment_transactions
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportAdjustmentTransaction[]
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\GLExportAdjustmentTransaction[]
      */
     public function getAdjustmentTransactions()
     {
@@ -344,7 +344,7 @@ class GLExport implements ArrayAccess
 
     /**
      * Sets adjustment_transactions
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportAdjustmentTransaction[] $adjustment_transactions
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\GLExportAdjustmentTransaction[] $adjustment_transactions
      * @return $this
      */
     public function setAdjustmentTransactions($adjustment_transactions)
@@ -356,7 +356,7 @@ class GLExport implements ArrayAccess
 
     /**
      * Gets inventory_transfers
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportInventoryTransfer[]
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\GLExportInventoryTransfer[]
      */
     public function getInventoryTransfers()
     {
@@ -365,7 +365,7 @@ class GLExport implements ArrayAccess
 
     /**
      * Sets inventory_transfers
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportInventoryTransfer[] $inventory_transfers
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\GLExportInventoryTransfer[] $inventory_transfers
      * @return $this
      */
     public function setInventoryTransfers($inventory_transfers)

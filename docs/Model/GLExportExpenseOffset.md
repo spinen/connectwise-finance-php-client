@@ -9,7 +9,7 @@ Name | Type | Description | Notes
 **account_number** | **string** |  | [optional] 
 **gl_type_id** | **string** |  | [optional] 
 **gl_class** | **string** |  | [optional] 
-**member** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\MemberReference**](MemberReference.md) |  | [optional] 
+**member** | [**\Spinen\ConnectWise\Clients\Finance\Model\MemberReference**](MemberReference.md) |  | [optional] 
 **memo** | **string** |  | [optional] 
 **description** | **string** |  | [optional] 
 **total** | **double** |  | [optional] 

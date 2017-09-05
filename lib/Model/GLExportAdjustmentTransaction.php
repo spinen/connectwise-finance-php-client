@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model;
+namespace Spinen\ConnectWise\Clients\Finance\Model;
 
 use \ArrayAccess;
 
@@ -63,7 +63,7 @@ class GLExportAdjustmentTransaction implements ArrayAccess
         'memo' => 'string',
         'gl_class' => 'string',
         'adjustment_description' => 'string',
-        'adjustment_detail' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportAdjustmentTransactionDetail[]'
+        'adjustment_detail' => '\Spinen\ConnectWise\Clients\Finance\Model\GLExportAdjustmentTransactionDetail[]'
     ];
 
     public static function swaggerTypes()
@@ -356,7 +356,7 @@ class GLExportAdjustmentTransaction implements ArrayAccess
 
     /**
      * Gets adjustment_detail
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportAdjustmentTransactionDetail[]
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\GLExportAdjustmentTransactionDetail[]
      */
     public function getAdjustmentDetail()
     {
@@ -365,7 +365,7 @@ class GLExportAdjustmentTransaction implements ArrayAccess
 
     /**
      * Sets adjustment_detail
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportAdjustmentTransactionDetail[] $adjustment_detail
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\GLExportAdjustmentTransactionDetail[] $adjustment_detail
      * @return $this
      */
     public function setAdjustmentDetail($adjustment_detail)

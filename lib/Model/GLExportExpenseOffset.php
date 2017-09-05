@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model;
+namespace Spinen\ConnectWise\Clients\Finance\Model;
 
 use \ArrayAccess;
 
@@ -61,7 +61,7 @@ class GLExportExpenseOffset implements ArrayAccess
         'account_number' => 'string',
         'gl_type_id' => 'string',
         'gl_class' => 'string',
-        'member' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\MemberReference',
+        'member' => '\Spinen\ConnectWise\Clients\Finance\Model\MemberReference',
         'memo' => 'string',
         'description' => 'string',
         'total' => 'double'
@@ -319,7 +319,7 @@ class GLExportExpenseOffset implements ArrayAccess
 
     /**
      * Gets member
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\MemberReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\MemberReference
      */
     public function getMember()
     {
@@ -328,7 +328,7 @@ class GLExportExpenseOffset implements ArrayAccess
 
     /**
      * Sets member
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\MemberReference $member
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\MemberReference $member
      * @return $this
      */
     public function setMember($member)

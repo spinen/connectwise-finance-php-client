@@ -65,7 +65,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAgreementsIdBoardDefaultsBoardDefaultIdGet**
-> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BoardDefault financeAgreementsIdBoardDefaultsBoardDefaultIdGet($id, $board_default_id)
+> \Spinen\ConnectWise\Clients\Finance\Model\BoardDefault financeAgreementsIdBoardDefaultsBoardDefaultIdGet($id, $board_default_id)
 
 
 
@@ -102,7 +102,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BoardDefault**](../Model/BoardDefault.md)
+[**\Spinen\ConnectWise\Clients\Finance\Model\BoardDefault**](../Model/BoardDefault.md)
 
 ### Authorization
 
@@ -116,7 +116,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAgreementsIdBoardDefaultsBoardDefaultIdPatch**
-> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BoardDefault financeAgreementsIdBoardDefaultsBoardDefaultIdPatch($id, $board_default_id, $operations)
+> \Spinen\ConnectWise\Clients\Finance\Model\BoardDefault financeAgreementsIdBoardDefaultsBoardDefaultIdPatch($id, $board_default_id, $operations)
 
 
 
@@ -134,7 +134,7 @@ Spinen\ConnectWise\Clients\Finance\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Finance\Api\AgreementBoardDefaultsApi();
 $id = 56; // int | 
 $board_default_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->financeAgreementsIdBoardDefaultsBoardDefaultIdPatch($id, $board_default_id, $operations);
@@ -151,11 +151,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **board_default_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BoardDefault**](../Model/BoardDefault.md)
+[**\Spinen\ConnectWise\Clients\Finance\Model\BoardDefault**](../Model/BoardDefault.md)
 
 ### Authorization
 
@@ -169,7 +169,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAgreementsIdBoardDefaultsBoardDefaultIdPut**
-> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BoardDefault financeAgreementsIdBoardDefaultsBoardDefaultIdPut($id, $board_default_id, $board_default)
+> \Spinen\ConnectWise\Clients\Finance\Model\BoardDefault financeAgreementsIdBoardDefaultsBoardDefaultIdPut($id, $board_default_id, $board_default)
 
 
 
@@ -187,7 +187,7 @@ Spinen\ConnectWise\Clients\Finance\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Finance\Api\AgreementBoardDefaultsApi();
 $id = 56; // int | 
 $board_default_id = 56; // int | 
-$board_default = new \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BoardDefault(); // \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BoardDefault | 
+$board_default = new \Spinen\ConnectWise\Clients\Finance\Model\BoardDefault(); // \Spinen\ConnectWise\Clients\Finance\Model\BoardDefault | 
 
 try {
     $result = $api_instance->financeAgreementsIdBoardDefaultsBoardDefaultIdPut($id, $board_default_id, $board_default);
@@ -204,11 +204,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **board_default_id** | **int**|  |
- **board_default** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BoardDefault**](../Model/\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BoardDefault.md)|  |
+ **board_default** | [**\Spinen\ConnectWise\Clients\Finance\Model\BoardDefault**](../Model/\Spinen\ConnectWise\Clients\Finance\Model\BoardDefault.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BoardDefault**](../Model/BoardDefault.md)
+[**\Spinen\ConnectWise\Clients\Finance\Model\BoardDefault**](../Model/BoardDefault.md)
 
 ### Authorization
 
@@ -222,7 +222,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAgreementsIdBoardDefaultsCountGet**
-> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count financeAgreementsIdBoardDefaultsCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Finance\Model\Count financeAgreementsIdBoardDefaultsCountGet($id, $conditions)
 
 
 
@@ -259,7 +259,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Finance\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -273,7 +273,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAgreementsIdBoardDefaultsGet**
-> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BoardDefault[] financeAgreementsIdBoardDefaultsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Finance\Model\BoardDefault[] financeAgreementsIdBoardDefaultsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -320,7 +320,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BoardDefault[]**](../Model/BoardDefault.md)
+[**\Spinen\ConnectWise\Clients\Finance\Model\BoardDefault[]**](../Model/BoardDefault.md)
 
 ### Authorization
 
@@ -334,7 +334,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAgreementsIdBoardDefaultsPost**
-> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BoardDefault financeAgreementsIdBoardDefaultsPost($id, $board_default)
+> \Spinen\ConnectWise\Clients\Finance\Model\BoardDefault financeAgreementsIdBoardDefaultsPost($id, $board_default)
 
 
 
@@ -351,7 +351,7 @@ Spinen\ConnectWise\Clients\Finance\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Finance\Api\AgreementBoardDefaultsApi();
 $id = 56; // int | 
-$board_default = new \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BoardDefault(); // \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BoardDefault | 
+$board_default = new \Spinen\ConnectWise\Clients\Finance\Model\BoardDefault(); // \Spinen\ConnectWise\Clients\Finance\Model\BoardDefault | 
 
 try {
     $result = $api_instance->financeAgreementsIdBoardDefaultsPost($id, $board_default);
@@ -367,11 +367,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **board_default** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BoardDefault**](../Model/\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BoardDefault.md)|  |
+ **board_default** | [**\Spinen\ConnectWise\Clients\Finance\Model\BoardDefault**](../Model/\Spinen\ConnectWise\Clients\Finance\Model\BoardDefault.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BoardDefault**](../Model/BoardDefault.md)
+[**\Spinen\ConnectWise\Clients\Finance\Model\BoardDefault**](../Model/BoardDefault.md)
 
 ### Authorization
 

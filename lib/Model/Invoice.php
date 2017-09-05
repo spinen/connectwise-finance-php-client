@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model;
+namespace Spinen\ConnectWise\Clients\Finance\Model;
 
 use \ArrayAccess;
 
@@ -58,16 +58,16 @@ class Invoice implements ArrayAccess
         'id' => 'int',
         'invoice_number' => 'string',
         'type' => 'string',
-        'status' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BillingStatusReference',
-        'company' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference',
-        'bill_to_company' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference',
-        'ship_to_company' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference',
+        'status' => '\Spinen\ConnectWise\Clients\Finance\Model\BillingStatusReference',
+        'company' => '\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference',
+        'bill_to_company' => '\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference',
+        'ship_to_company' => '\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference',
         'apply_to_type' => 'string',
         'apply_to_id' => 'int',
         'attention' => 'string',
-        'billing_site' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\SiteReference',
-        'shipping_site' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\SiteReference',
-        'billing_terms' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BillingTermsReference',
+        'billing_site' => '\Spinen\ConnectWise\Clients\Finance\Model\SiteReference',
+        'shipping_site' => '\Spinen\ConnectWise\Clients\Finance\Model\SiteReference',
+        'billing_terms' => '\Spinen\ConnectWise\Clients\Finance\Model\BillingTermsReference',
         'reference' => 'string',
         'customer_po' => 'string',
         'template_setup_id' => 'int',
@@ -81,7 +81,7 @@ class Invoice implements ArrayAccess
         'top_comment' => 'string',
         'bottom_comment' => 'string',
         'taxable_flag' => 'bool',
-        'tax_code' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference',
+        'tax_code' => '\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference',
         'internal_notes' => 'string',
         'downpayment_previously_taxed_flag' => 'bool',
         'service_total' => 'double',
@@ -102,7 +102,7 @@ class Invoice implements ArrayAccess
         'credits' => 'double',
         'balance' => 'double',
         'special_invoice_flag' => 'bool',
-        '_info' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Finance\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -556,7 +556,7 @@ class Invoice implements ArrayAccess
 
     /**
      * Gets status
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BillingStatusReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\BillingStatusReference
      */
     public function getStatus()
     {
@@ -565,7 +565,7 @@ class Invoice implements ArrayAccess
 
     /**
      * Sets status
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BillingStatusReference $status
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\BillingStatusReference $status
      * @return $this
      */
     public function setStatus($status)
@@ -577,7 +577,7 @@ class Invoice implements ArrayAccess
 
     /**
      * Gets company
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\CompanyReference
      */
     public function getCompany()
     {
@@ -586,7 +586,7 @@ class Invoice implements ArrayAccess
 
     /**
      * Sets company
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference $company
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\CompanyReference $company
      * @return $this
      */
     public function setCompany($company)
@@ -598,7 +598,7 @@ class Invoice implements ArrayAccess
 
     /**
      * Gets bill_to_company
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\CompanyReference
      */
     public function getBillToCompany()
     {
@@ -607,7 +607,7 @@ class Invoice implements ArrayAccess
 
     /**
      * Sets bill_to_company
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference $bill_to_company
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\CompanyReference $bill_to_company
      * @return $this
      */
     public function setBillToCompany($bill_to_company)
@@ -619,7 +619,7 @@ class Invoice implements ArrayAccess
 
     /**
      * Gets ship_to_company
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\CompanyReference
      */
     public function getShipToCompany()
     {
@@ -628,7 +628,7 @@ class Invoice implements ArrayAccess
 
     /**
      * Sets ship_to_company
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference $ship_to_company
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\CompanyReference $ship_to_company
      * @return $this
      */
     public function setShipToCompany($ship_to_company)
@@ -711,7 +711,7 @@ class Invoice implements ArrayAccess
 
     /**
      * Gets billing_site
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\SiteReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\SiteReference
      */
     public function getBillingSite()
     {
@@ -720,7 +720,7 @@ class Invoice implements ArrayAccess
 
     /**
      * Sets billing_site
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\SiteReference $billing_site
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\SiteReference $billing_site
      * @return $this
      */
     public function setBillingSite($billing_site)
@@ -732,7 +732,7 @@ class Invoice implements ArrayAccess
 
     /**
      * Gets shipping_site
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\SiteReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\SiteReference
      */
     public function getShippingSite()
     {
@@ -741,7 +741,7 @@ class Invoice implements ArrayAccess
 
     /**
      * Sets shipping_site
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\SiteReference $shipping_site
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\SiteReference $shipping_site
      * @return $this
      */
     public function setShippingSite($shipping_site)
@@ -753,7 +753,7 @@ class Invoice implements ArrayAccess
 
     /**
      * Gets billing_terms
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BillingTermsReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\BillingTermsReference
      */
     public function getBillingTerms()
     {
@@ -762,7 +762,7 @@ class Invoice implements ArrayAccess
 
     /**
      * Sets billing_terms
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BillingTermsReference $billing_terms
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\BillingTermsReference $billing_terms
      * @return $this
      */
     public function setBillingTerms($billing_terms)
@@ -1055,7 +1055,7 @@ class Invoice implements ArrayAccess
 
     /**
      * Gets tax_code
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference
      */
     public function getTaxCode()
     {
@@ -1064,7 +1064,7 @@ class Invoice implements ArrayAccess
 
     /**
      * Sets tax_code
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference $tax_code
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference $tax_code
      * @return $this
      */
     public function setTaxCode($tax_code)
@@ -1496,7 +1496,7 @@ class Invoice implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\Metadata
      */
     public function getInfo()
     {
@@ -1505,7 +1505,7 @@ class Invoice implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

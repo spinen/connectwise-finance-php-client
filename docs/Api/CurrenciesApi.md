@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **financeCurrenciesCountGet**
-> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count financeCurrenciesCountGet($conditions)
+> \Spinen\ConnectWise\Clients\Finance\Model\Count financeCurrenciesCountGet($conditions)
 
 
 
@@ -50,7 +50,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Finance\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -64,7 +64,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeCurrenciesGet**
-> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Currency[] financeCurrenciesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Finance\Model\Currency[] financeCurrenciesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -109,7 +109,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Currency[]**](../Model/Currency.md)
+[**\Spinen\ConnectWise\Clients\Finance\Model\Currency[]**](../Model/Currency.md)
 
 ### Authorization
 
@@ -171,7 +171,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeCurrenciesIdGet**
-> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Currency financeCurrenciesIdGet($id)
+> \Spinen\ConnectWise\Clients\Finance\Model\Currency financeCurrenciesIdGet($id)
 
 
 
@@ -206,7 +206,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Currency**](../Model/Currency.md)
+[**\Spinen\ConnectWise\Clients\Finance\Model\Currency**](../Model/Currency.md)
 
 ### Authorization
 
@@ -220,7 +220,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeCurrenciesIdPatch**
-> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Currency financeCurrenciesIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Finance\Model\Currency financeCurrenciesIdPatch($id, $operations)
 
 
 
@@ -237,7 +237,7 @@ Spinen\ConnectWise\Clients\Finance\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Finance\Api\CurrenciesApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->financeCurrenciesIdPatch($id, $operations);
@@ -253,11 +253,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Currency**](../Model/Currency.md)
+[**\Spinen\ConnectWise\Clients\Finance\Model\Currency**](../Model/Currency.md)
 
 ### Authorization
 
@@ -271,7 +271,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeCurrenciesIdPut**
-> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Currency financeCurrenciesIdPut($id, $currency)
+> \Spinen\ConnectWise\Clients\Finance\Model\Currency financeCurrenciesIdPut($id, $currency)
 
 
 
@@ -288,7 +288,7 @@ Spinen\ConnectWise\Clients\Finance\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Finance\Api\CurrenciesApi();
 $id = 56; // int | 
-$currency = new \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Currency(); // \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Currency | 
+$currency = new \Spinen\ConnectWise\Clients\Finance\Model\Currency(); // \Spinen\ConnectWise\Clients\Finance\Model\Currency | 
 
 try {
     $result = $api_instance->financeCurrenciesIdPut($id, $currency);
@@ -304,11 +304,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **currency** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Currency**](../Model/\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Currency.md)|  |
+ **currency** | [**\Spinen\ConnectWise\Clients\Finance\Model\Currency**](../Model/\Spinen\ConnectWise\Clients\Finance\Model\Currency.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Currency**](../Model/Currency.md)
+[**\Spinen\ConnectWise\Clients\Finance\Model\Currency**](../Model/Currency.md)
 
 ### Authorization
 
@@ -322,7 +322,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeCurrenciesPost**
-> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Currency financeCurrenciesPost($currency)
+> \Spinen\ConnectWise\Clients\Finance\Model\Currency financeCurrenciesPost($currency)
 
 
 
@@ -338,7 +338,7 @@ Spinen\ConnectWise\Clients\Finance\Configuration::getDefaultConfiguration()->set
 Spinen\ConnectWise\Clients\Finance\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Finance\Api\CurrenciesApi();
-$currency = new \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Currency(); // \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Currency | 
+$currency = new \Spinen\ConnectWise\Clients\Finance\Model\Currency(); // \Spinen\ConnectWise\Clients\Finance\Model\Currency | 
 
 try {
     $result = $api_instance->financeCurrenciesPost($currency);
@@ -353,11 +353,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **currency** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Currency**](../Model/\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Currency.md)|  |
+ **currency** | [**\Spinen\ConnectWise\Clients\Finance\Model\Currency**](../Model/\Spinen\ConnectWise\Clients\Finance\Model\Currency.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Currency**](../Model/Currency.md)
+[**\Spinen\ConnectWise\Clients\Finance\Model\Currency**](../Model/Currency.md)
 
 ### Authorization
 

@@ -15,14 +15,14 @@ Name | Type | Description | Notes
 **description** | **string** |  | [optional] 
 **period_start_date** | [**\DateTime**](\DateTime.md) |  | [optional] 
 **period_end_date** | [**\DateTime**](\DateTime.md) |  | [optional] 
-**member** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\MemberReference**](MemberReference.md) |  | [optional] 
+**member** | [**\Spinen\ConnectWise\Clients\Finance\Model\MemberReference**](MemberReference.md) |  | [optional] 
 **vendor_number** | **string** |  | [optional] 
-**company** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference**](CompanyReference.md) |  | [optional] 
+**company** | [**\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference**](CompanyReference.md) |  | [optional] 
 **company_account_number** | **string** |  | [optional] 
-**project** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ProjectReference**](ProjectReference.md) |  | [optional] 
-**currency** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference**](CurrencyReference.md) |  | [optional] 
+**project** | [**\Spinen\ConnectWise\Clients\Finance\Model\ProjectReference**](ProjectReference.md) |  | [optional] 
+**currency** | [**\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference**](CurrencyReference.md) |  | [optional] 
 **total** | **double** |  | [optional] 
-**offset** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportExpenseOffset**](GLExportExpenseOffset.md) |  | [optional] 
+**offset** | [**\Spinen\ConnectWise\Clients\Finance\Model\GLExportExpenseOffset**](GLExportExpenseOffset.md) |  | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model;
+namespace Spinen\ConnectWise\Clients\Finance\Model;
 
 use \ArrayAccess;
 
@@ -58,7 +58,7 @@ class GLExportAdjustmentTransactionDetail implements ArrayAccess
         'gl_class' => 'string',
         'description' => 'string',
         'memo' => 'string',
-        'item' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\IvItemReference',
+        'item' => '\Spinen\ConnectWise\Clients\Finance\Model\IvItemReference',
         'quantity' => 'int',
         'total' => 'double',
         'cost' => 'double',
@@ -261,7 +261,7 @@ class GLExportAdjustmentTransactionDetail implements ArrayAccess
 
     /**
      * Gets item
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\IvItemReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\IvItemReference
      */
     public function getItem()
     {
@@ -270,7 +270,7 @@ class GLExportAdjustmentTransactionDetail implements ArrayAccess
 
     /**
      * Sets item
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\IvItemReference $item
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\IvItemReference $item
      * @return $this
      */
     public function setItem($item)

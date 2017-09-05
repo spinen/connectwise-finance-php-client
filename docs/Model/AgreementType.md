@@ -44,8 +44,8 @@ Name | Type | Description | Notes
 **invoice_description** | **string** |  | [optional] 
 **top_comment_flag** | **bool** |  | [optional] 
 **bottom_comment_flag** | **bool** |  | [optional] 
-**work_role** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\WorkRoleReference**](WorkRoleReference.md) |  | [optional] 
-**work_type** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\WorkTypeReference**](WorkTypeReference.md) |  | [optional] 
+**work_role** | [**\Spinen\ConnectWise\Clients\Finance\Model\WorkRoleReference**](WorkRoleReference.md) |  | [optional] 
+**work_type** | [**\Spinen\ConnectWise\Clients\Finance\Model\WorkTypeReference**](WorkTypeReference.md) |  | [optional] 
 **project_type_id** | **int** |  | [optional] 
 **invoice_template_setup_id** | **int** |  | [optional] 
 **bill_time** | **string** |  | 
@@ -56,7 +56,7 @@ Name | Type | Description | Notes
 **billable_product_invoice_flag** | **bool** |  | [optional] 
 **copy_work_roles_flag** | **bool** |  | [optional] 
 **copy_work_types_flag** | **bool** |  | [optional] 
-**_info** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata**](Metadata.md) | Metadata of the entity | [optional] 
+**_info** | [**\Spinen\ConnectWise\Clients\Finance\Model\Metadata**](Metadata.md) | Metadata of the entity | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

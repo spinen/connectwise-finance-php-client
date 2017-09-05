@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model;
+namespace Spinen\ConnectWise\Clients\Finance\Model;
 
 use \ArrayAccess;
 
@@ -56,7 +56,7 @@ class Addition implements ArrayAccess
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-        'product' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\IvItemReference',
+        'product' => '\Spinen\ConnectWise\Clients\Finance\Model\IvItemReference',
         'quantity' => 'double',
         'less_included' => 'double',
         'unit_price' => 'double',
@@ -82,7 +82,7 @@ class Addition implements ArrayAccess
         'extended_prorate_cost' => 'double',
         'extended_prorate_price' => 'double',
         'prorate_current_period_flag' => 'bool',
-        '_info' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Finance\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -355,7 +355,7 @@ class Addition implements ArrayAccess
 
     /**
      * Gets product
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\IvItemReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\IvItemReference
      */
     public function getProduct()
     {
@@ -364,7 +364,7 @@ class Addition implements ArrayAccess
 
     /**
      * Sets product
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\IvItemReference $product
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\IvItemReference $product
      * @return $this
      */
     public function setProduct($product)
@@ -913,7 +913,7 @@ class Addition implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\Metadata
      */
     public function getInfo()
     {
@@ -922,7 +922,7 @@ class Addition implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

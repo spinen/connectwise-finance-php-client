@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model;
+namespace Spinen\ConnectWise\Clients\Finance\Model;
 
 use \ArrayAccess;
 
@@ -65,11 +65,11 @@ class GLExportTransaction implements ArrayAccess
         'description' => 'string',
         'attention' => 'string',
         'sales_territory' => 'string',
-        'company' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference',
-        'company_type' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyTypeReference',
+        'company' => '\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference',
+        'company_type' => '\Spinen\ConnectWise\Clients\Finance\Model\CompanyTypeReference',
         'company_account_number' => 'string',
-        'site' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\SiteReference',
-        'billing_terms' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BillingTermsReference',
+        'site' => '\Spinen\ConnectWise\Clients\Finance\Model\SiteReference',
+        'billing_terms' => '\Spinen\ConnectWise\Clients\Finance\Model\BillingTermsReference',
         'billing_terms_xref' => 'string',
         'due_days' => 'int',
         'due_date' => '\DateTime',
@@ -79,15 +79,15 @@ class GLExportTransaction implements ArrayAccess
         'account_number' => 'string',
         'billing_type' => 'string',
         'gl_entry_ids' => 'string',
-        'purchase_order' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PurchaseOrderReference',
-        'project' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ProjectReference',
-        'currency' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference',
+        'purchase_order' => '\Spinen\ConnectWise\Clients\Finance\Model\PurchaseOrderReference',
+        'project' => '\Spinen\ConnectWise\Clients\Finance\Model\ProjectReference',
+        'currency' => '\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference',
         'total' => 'double',
         'sales_rep_id' => 'string',
         'sales_rep_name' => 'string',
         'taxable' => 'bool',
         'taxable_total' => 'double',
-        'tax_code' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference',
+        'tax_code' => '\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference',
         'tax_group_rate' => 'double',
         'piggy_back_flag' => 'bool',
         'tax_account_number' => 'string',
@@ -107,13 +107,13 @@ class GLExportTransaction implements ArrayAccess
         'tax_dp_applied_flag' => 'bool',
         'use_avalara_flag' => 'bool',
         'send_avalara_tax_flag' => 'bool',
-        'ship_to_company' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference',
+        'ship_to_company' => '\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference',
         'ship_company_account_number' => 'string',
-        'ship_company_type' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyTypeReference',
+        'ship_company_type' => '\Spinen\ConnectWise\Clients\Finance\Model\CompanyTypeReference',
         'ship_tax_id' => 'string',
-        'ship_site' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\SiteReference',
-        'ship_contact' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ContactReference',
-        'detail' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportTransactionDetail[]'
+        'ship_site' => '\Spinen\ConnectWise\Clients\Finance\Model\SiteReference',
+        'ship_contact' => '\Spinen\ConnectWise\Clients\Finance\Model\ContactReference',
+        'detail' => '\Spinen\ConnectWise\Clients\Finance\Model\GLExportTransactionDetail[]'
     ];
 
     public static function swaggerTypes()
@@ -648,7 +648,7 @@ class GLExportTransaction implements ArrayAccess
 
     /**
      * Gets company
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\CompanyReference
      */
     public function getCompany()
     {
@@ -657,7 +657,7 @@ class GLExportTransaction implements ArrayAccess
 
     /**
      * Sets company
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference $company
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\CompanyReference $company
      * @return $this
      */
     public function setCompany($company)
@@ -669,7 +669,7 @@ class GLExportTransaction implements ArrayAccess
 
     /**
      * Gets company_type
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyTypeReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\CompanyTypeReference
      */
     public function getCompanyType()
     {
@@ -678,7 +678,7 @@ class GLExportTransaction implements ArrayAccess
 
     /**
      * Sets company_type
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyTypeReference $company_type
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\CompanyTypeReference $company_type
      * @return $this
      */
     public function setCompanyType($company_type)
@@ -711,7 +711,7 @@ class GLExportTransaction implements ArrayAccess
 
     /**
      * Gets site
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\SiteReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\SiteReference
      */
     public function getSite()
     {
@@ -720,7 +720,7 @@ class GLExportTransaction implements ArrayAccess
 
     /**
      * Sets site
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\SiteReference $site
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\SiteReference $site
      * @return $this
      */
     public function setSite($site)
@@ -732,7 +732,7 @@ class GLExportTransaction implements ArrayAccess
 
     /**
      * Gets billing_terms
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BillingTermsReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\BillingTermsReference
      */
     public function getBillingTerms()
     {
@@ -741,7 +741,7 @@ class GLExportTransaction implements ArrayAccess
 
     /**
      * Sets billing_terms
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BillingTermsReference $billing_terms
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\BillingTermsReference $billing_terms
      * @return $this
      */
     public function setBillingTerms($billing_terms)
@@ -942,7 +942,7 @@ class GLExportTransaction implements ArrayAccess
 
     /**
      * Gets purchase_order
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PurchaseOrderReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\PurchaseOrderReference
      */
     public function getPurchaseOrder()
     {
@@ -951,7 +951,7 @@ class GLExportTransaction implements ArrayAccess
 
     /**
      * Sets purchase_order
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PurchaseOrderReference $purchase_order
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\PurchaseOrderReference $purchase_order
      * @return $this
      */
     public function setPurchaseOrder($purchase_order)
@@ -963,7 +963,7 @@ class GLExportTransaction implements ArrayAccess
 
     /**
      * Gets project
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ProjectReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\ProjectReference
      */
     public function getProject()
     {
@@ -972,7 +972,7 @@ class GLExportTransaction implements ArrayAccess
 
     /**
      * Sets project
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ProjectReference $project
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\ProjectReference $project
      * @return $this
      */
     public function setProject($project)
@@ -984,7 +984,7 @@ class GLExportTransaction implements ArrayAccess
 
     /**
      * Gets currency
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference
      */
     public function getCurrency()
     {
@@ -993,7 +993,7 @@ class GLExportTransaction implements ArrayAccess
 
     /**
      * Sets currency
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference $currency
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference $currency
      * @return $this
      */
     public function setCurrency($currency)
@@ -1110,7 +1110,7 @@ class GLExportTransaction implements ArrayAccess
 
     /**
      * Gets tax_code
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference
      */
     public function getTaxCode()
     {
@@ -1119,7 +1119,7 @@ class GLExportTransaction implements ArrayAccess
 
     /**
      * Sets tax_code
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference $tax_code
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference $tax_code
      * @return $this
      */
     public function setTaxCode($tax_code)
@@ -1530,7 +1530,7 @@ class GLExportTransaction implements ArrayAccess
 
     /**
      * Gets ship_to_company
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\CompanyReference
      */
     public function getShipToCompany()
     {
@@ -1539,7 +1539,7 @@ class GLExportTransaction implements ArrayAccess
 
     /**
      * Sets ship_to_company
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference $ship_to_company
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\CompanyReference $ship_to_company
      * @return $this
      */
     public function setShipToCompany($ship_to_company)
@@ -1572,7 +1572,7 @@ class GLExportTransaction implements ArrayAccess
 
     /**
      * Gets ship_company_type
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyTypeReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\CompanyTypeReference
      */
     public function getShipCompanyType()
     {
@@ -1581,7 +1581,7 @@ class GLExportTransaction implements ArrayAccess
 
     /**
      * Sets ship_company_type
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyTypeReference $ship_company_type
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\CompanyTypeReference $ship_company_type
      * @return $this
      */
     public function setShipCompanyType($ship_company_type)
@@ -1614,7 +1614,7 @@ class GLExportTransaction implements ArrayAccess
 
     /**
      * Gets ship_site
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\SiteReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\SiteReference
      */
     public function getShipSite()
     {
@@ -1623,7 +1623,7 @@ class GLExportTransaction implements ArrayAccess
 
     /**
      * Sets ship_site
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\SiteReference $ship_site
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\SiteReference $ship_site
      * @return $this
      */
     public function setShipSite($ship_site)
@@ -1635,7 +1635,7 @@ class GLExportTransaction implements ArrayAccess
 
     /**
      * Gets ship_contact
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ContactReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\ContactReference
      */
     public function getShipContact()
     {
@@ -1644,7 +1644,7 @@ class GLExportTransaction implements ArrayAccess
 
     /**
      * Sets ship_contact
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ContactReference $ship_contact
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\ContactReference $ship_contact
      * @return $this
      */
     public function setShipContact($ship_contact)
@@ -1656,7 +1656,7 @@ class GLExportTransaction implements ArrayAccess
 
     /**
      * Gets detail
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportTransactionDetail[]
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\GLExportTransactionDetail[]
      */
     public function getDetail()
     {
@@ -1665,7 +1665,7 @@ class GLExportTransaction implements ArrayAccess
 
     /**
      * Sets detail
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportTransactionDetail[] $detail
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\GLExportTransactionDetail[] $detail
      * @return $this
      */
     public function setDetail($detail)

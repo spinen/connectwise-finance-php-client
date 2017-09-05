@@ -6,7 +6,7 @@ Name | Type | Description | Notes
 **gl_class** | **string** |  | [optional] 
 **description** | **string** |  | [optional] 
 **memo** | **string** |  | [optional] 
-**item** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\IvItemReference**](IvItemReference.md) |  | [optional] 
+**item** | [**\Spinen\ConnectWise\Clients\Finance\Model\IvItemReference**](IvItemReference.md) |  | [optional] 
 **quantity** | **int** |  | [optional] 
 **total** | **double** |  | [optional] 
 **cost** | **double** |  | [optional] 

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model;
+namespace Spinen\ConnectWise\Clients\Finance\Model;
 
 use \ArrayAccess;
 
@@ -67,26 +67,26 @@ class GLExportInventoryTransfer implements ArrayAccess
         'cost_acccount_number' => 'string',
         'inventory_account_number' => 'string',
         'transfer_id' => 'int',
-        'item' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\IvItemReference',
+        'item' => '\Spinen\ConnectWise\Clients\Finance\Model\IvItemReference',
         'gl_item_id' => 'string',
         'sales_description' => 'string',
         'item_description' => 'string',
-        'currency' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference',
+        'currency' => '\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference',
         'item_price' => 'double',
         'taxable' => 'bool',
-        'unit_of_measure' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\UnitOfMeasureReference',
+        'unit_of_measure' => '\Spinen\ConnectWise\Clients\Finance\Model\UnitOfMeasureReference',
         'quantity' => 'double',
         'cost' => 'double',
         'total' => 'double',
-        'sub_category' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ProductSubCategoryReference',
+        'sub_category' => '\Spinen\ConnectWise\Clients\Finance\Model\ProductSubCategoryReference',
         'serialized_flag' => 'bool',
         'serial_numbers' => 'string',
-        'shipment_method' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ShipmentMethodReference',
-        'bin' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\WarehouseBinReference',
-        'warehouse' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\WarehouseReference',
-        'transfer_from_bin' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\WarehouseBinReference',
+        'shipment_method' => '\Spinen\ConnectWise\Clients\Finance\Model\ShipmentMethodReference',
+        'bin' => '\Spinen\ConnectWise\Clients\Finance\Model\WarehouseBinReference',
+        'warehouse' => '\Spinen\ConnectWise\Clients\Finance\Model\WarehouseReference',
+        'transfer_from_bin' => '\Spinen\ConnectWise\Clients\Finance\Model\WarehouseBinReference',
         'transfer_from_location_xref' => 'string',
-        'transfer_to_bin' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\WarehouseBinReference',
+        'transfer_to_bin' => '\Spinen\ConnectWise\Clients\Finance\Model\WarehouseBinReference',
         'transfer_to_location_xref' => 'string',
         'location_xref' => 'string',
         'price_level_xref' => 'string',
@@ -95,8 +95,8 @@ class GLExportInventoryTransfer implements ArrayAccess
         'inventory_xref' => 'string',
         'cogs_xref' => 'string',
         'tax_note' => 'string',
-        'tax_code' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference',
-        'offset' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportInventoryTransferOffset'
+        'tax_code' => '\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference',
+        'offset' => '\Spinen\ConnectWise\Clients\Finance\Model\GLExportInventoryTransferOffset'
     ];
 
     public static function swaggerTypes()
@@ -605,7 +605,7 @@ class GLExportInventoryTransfer implements ArrayAccess
 
     /**
      * Gets item
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\IvItemReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\IvItemReference
      */
     public function getItem()
     {
@@ -614,7 +614,7 @@ class GLExportInventoryTransfer implements ArrayAccess
 
     /**
      * Sets item
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\IvItemReference $item
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\IvItemReference $item
      * @return $this
      */
     public function setItem($item)
@@ -689,7 +689,7 @@ class GLExportInventoryTransfer implements ArrayAccess
 
     /**
      * Gets currency
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference
      */
     public function getCurrency()
     {
@@ -698,7 +698,7 @@ class GLExportInventoryTransfer implements ArrayAccess
 
     /**
      * Sets currency
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference $currency
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference $currency
      * @return $this
      */
     public function setCurrency($currency)
@@ -752,7 +752,7 @@ class GLExportInventoryTransfer implements ArrayAccess
 
     /**
      * Gets unit_of_measure
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\UnitOfMeasureReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\UnitOfMeasureReference
      */
     public function getUnitOfMeasure()
     {
@@ -761,7 +761,7 @@ class GLExportInventoryTransfer implements ArrayAccess
 
     /**
      * Sets unit_of_measure
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\UnitOfMeasureReference $unit_of_measure
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\UnitOfMeasureReference $unit_of_measure
      * @return $this
      */
     public function setUnitOfMeasure($unit_of_measure)
@@ -836,7 +836,7 @@ class GLExportInventoryTransfer implements ArrayAccess
 
     /**
      * Gets sub_category
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ProductSubCategoryReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\ProductSubCategoryReference
      */
     public function getSubCategory()
     {
@@ -845,7 +845,7 @@ class GLExportInventoryTransfer implements ArrayAccess
 
     /**
      * Sets sub_category
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ProductSubCategoryReference $sub_category
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\ProductSubCategoryReference $sub_category
      * @return $this
      */
     public function setSubCategory($sub_category)
@@ -899,7 +899,7 @@ class GLExportInventoryTransfer implements ArrayAccess
 
     /**
      * Gets shipment_method
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ShipmentMethodReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\ShipmentMethodReference
      */
     public function getShipmentMethod()
     {
@@ -908,7 +908,7 @@ class GLExportInventoryTransfer implements ArrayAccess
 
     /**
      * Sets shipment_method
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ShipmentMethodReference $shipment_method
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\ShipmentMethodReference $shipment_method
      * @return $this
      */
     public function setShipmentMethod($shipment_method)
@@ -920,7 +920,7 @@ class GLExportInventoryTransfer implements ArrayAccess
 
     /**
      * Gets bin
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\WarehouseBinReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\WarehouseBinReference
      */
     public function getBin()
     {
@@ -929,7 +929,7 @@ class GLExportInventoryTransfer implements ArrayAccess
 
     /**
      * Sets bin
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\WarehouseBinReference $bin
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\WarehouseBinReference $bin
      * @return $this
      */
     public function setBin($bin)
@@ -941,7 +941,7 @@ class GLExportInventoryTransfer implements ArrayAccess
 
     /**
      * Gets warehouse
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\WarehouseReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\WarehouseReference
      */
     public function getWarehouse()
     {
@@ -950,7 +950,7 @@ class GLExportInventoryTransfer implements ArrayAccess
 
     /**
      * Sets warehouse
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\WarehouseReference $warehouse
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\WarehouseReference $warehouse
      * @return $this
      */
     public function setWarehouse($warehouse)
@@ -962,7 +962,7 @@ class GLExportInventoryTransfer implements ArrayAccess
 
     /**
      * Gets transfer_from_bin
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\WarehouseBinReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\WarehouseBinReference
      */
     public function getTransferFromBin()
     {
@@ -971,7 +971,7 @@ class GLExportInventoryTransfer implements ArrayAccess
 
     /**
      * Sets transfer_from_bin
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\WarehouseBinReference $transfer_from_bin
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\WarehouseBinReference $transfer_from_bin
      * @return $this
      */
     public function setTransferFromBin($transfer_from_bin)
@@ -1004,7 +1004,7 @@ class GLExportInventoryTransfer implements ArrayAccess
 
     /**
      * Gets transfer_to_bin
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\WarehouseBinReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\WarehouseBinReference
      */
     public function getTransferToBin()
     {
@@ -1013,7 +1013,7 @@ class GLExportInventoryTransfer implements ArrayAccess
 
     /**
      * Sets transfer_to_bin
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\WarehouseBinReference $transfer_to_bin
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\WarehouseBinReference $transfer_to_bin
      * @return $this
      */
     public function setTransferToBin($transfer_to_bin)
@@ -1193,7 +1193,7 @@ class GLExportInventoryTransfer implements ArrayAccess
 
     /**
      * Gets tax_code
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference
      */
     public function getTaxCode()
     {
@@ -1202,7 +1202,7 @@ class GLExportInventoryTransfer implements ArrayAccess
 
     /**
      * Sets tax_code
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference $tax_code
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference $tax_code
      * @return $this
      */
     public function setTaxCode($tax_code)
@@ -1214,7 +1214,7 @@ class GLExportInventoryTransfer implements ArrayAccess
 
     /**
      * Gets offset
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportInventoryTransferOffset
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\GLExportInventoryTransferOffset
      */
     public function getOffset()
     {
@@ -1223,7 +1223,7 @@ class GLExportInventoryTransfer implements ArrayAccess
 
     /**
      * Sets offset
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportInventoryTransferOffset $offset
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\GLExportInventoryTransferOffset $offset
      * @return $this
      */
     public function setOffset($offset)

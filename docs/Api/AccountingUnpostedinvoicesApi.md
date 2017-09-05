@@ -11,7 +11,7 @@ Method | HTTP request | Description
 
 
 # **financeAccountingUnpostedinvoicesCountGet**
-> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count financeAccountingUnpostedinvoicesCountGet($conditions)
+> \Spinen\ConnectWise\Clients\Finance\Model\Count financeAccountingUnpostedinvoicesCountGet($conditions)
 
 
 
@@ -46,7 +46,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Finance\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -60,7 +60,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAccountingUnpostedinvoicesGet**
-> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\UnpostedInvoice[] financeAccountingUnpostedinvoicesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Finance\Model\UnpostedInvoice[] financeAccountingUnpostedinvoicesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -105,7 +105,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\UnpostedInvoice[]**](../Model/UnpostedInvoice.md)
+[**\Spinen\ConnectWise\Clients\Finance\Model\UnpostedInvoice[]**](../Model/UnpostedInvoice.md)
 
 ### Authorization
 
@@ -119,7 +119,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAccountingUnpostedinvoicesIdGet**
-> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\UnpostedInvoice financeAccountingUnpostedinvoicesIdGet($id)
+> \Spinen\ConnectWise\Clients\Finance\Model\UnpostedInvoice financeAccountingUnpostedinvoicesIdGet($id)
 
 
 
@@ -154,7 +154,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\UnpostedInvoice**](../Model/UnpostedInvoice.md)
+[**\Spinen\ConnectWise\Clients\Finance\Model\UnpostedInvoice**](../Model/UnpostedInvoice.md)
 
 ### Authorization
 

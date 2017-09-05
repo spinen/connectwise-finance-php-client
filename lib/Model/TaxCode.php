@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model;
+namespace Spinen\ConnectWise\Clients\Finance\Model;
 
 use \ArrayAccess;
 
@@ -59,7 +59,7 @@ class TaxCode implements ArrayAccess
         'identifier' => 'string',
         'description' => 'string',
         'invoice_caption' => 'string',
-        'country' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CountryReference',
+        'country' => '\Spinen\ConnectWise\Clients\Finance\Model\CountryReference',
         'effective_date' => '\DateTime',
         'default_flag' => 'bool',
         'display_on_invoice_flag' => 'bool',
@@ -125,7 +125,7 @@ class TaxCode implements ArrayAccess
         'level_five_apply_single_unit_flag' => 'bool',
         'level_five_apply_single_unit_min' => 'double',
         'level_five_apply_single_unit_max' => 'double',
-        '_info' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Finance\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -859,7 +859,7 @@ class TaxCode implements ArrayAccess
 
     /**
      * Gets country
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CountryReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\CountryReference
      */
     public function getCountry()
     {
@@ -868,7 +868,7 @@ class TaxCode implements ArrayAccess
 
     /**
      * Sets country
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CountryReference $country
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\CountryReference $country
      * @return $this
      */
     public function setCountry($country)
@@ -2325,7 +2325,7 @@ class TaxCode implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Finance\Model\Metadata
      */
     public function getInfo()
     {
@@ -2334,7 +2334,7 @@ class TaxCode implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Finance\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)
