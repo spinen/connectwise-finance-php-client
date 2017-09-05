@@ -12,7 +12,7 @@ Method | HTTP request | Description
 
 
 # **financeAgreementsIdWorkTypeExclusionsCountGet**
-> \Spinen\ConnectWise\Clients\Finance\Model\Count financeAgreementsIdWorkTypeExclusionsCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count financeAgreementsIdWorkTypeExclusionsCountGet($id, $conditions)
 
 
 
@@ -49,7 +49,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -63,7 +63,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAgreementsIdWorkTypeExclusionsGet**
-> \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion[] financeAgreementsIdWorkTypeExclusionsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion[] financeAgreementsIdWorkTypeExclusionsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -110,7 +110,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion[]**](../Model/AgreementWorkTypeExclusion.md)
+[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion[]**](../Model/AgreementWorkTypeExclusion.md)
 
 ### Authorization
 
@@ -124,7 +124,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAgreementsIdWorkTypeExclusionsPost**
-> \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion financeAgreementsIdWorkTypeExclusionsPost($id, $work_type_exclusion)
+> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion financeAgreementsIdWorkTypeExclusionsPost($id, $work_type_exclusion)
 
 
 
@@ -141,7 +141,7 @@ Spinen\ConnectWise\Clients\Finance\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Finance\Api\AgreementWorkTypeExclusionsApi();
 $id = 56; // int | 
-$work_type_exclusion = new \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion(); // \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion | 
+$work_type_exclusion = new \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion(); // \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion | 
 
 try {
     $result = $api_instance->financeAgreementsIdWorkTypeExclusionsPost($id, $work_type_exclusion);
@@ -157,11 +157,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **work_type_exclusion** | [**\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion**](../Model/\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion.md)|  |
+ **work_type_exclusion** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion**](../Model/\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion**](../Model/AgreementWorkTypeExclusion.md)
+[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion**](../Model/AgreementWorkTypeExclusion.md)
 
 ### Authorization
 

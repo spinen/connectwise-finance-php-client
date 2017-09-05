@@ -1,0 +1,52 @@
+# GLExportPurchaseTransaction
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**id** | **string** |  | [optional] 
+**document_date** | [**\DateTime**](\DateTime.md) |  | [optional] 
+**document_number** | **string** |  | [optional] 
+**description** | **string** |  | [optional] 
+**memo** | **string** |  | [optional] 
+**ap_account_number** | **string** |  | [optional] 
+**purchase_date** | [**\DateTime**](\DateTime.md) |  | [optional] 
+**company** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference**](CompanyReference.md) |  | [optional] 
+**company_type** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyTypeReference**](CompanyTypeReference.md) |  | [optional] 
+**contact** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ContactReference**](ContactReference.md) |  | [optional] 
+**site** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\SiteReference**](SiteReference.md) |  | [optional] 
+**purchase_class** | **string** |  | [optional] 
+**freight_amount** | **double** |  | [optional] 
+**freight_packing_slip** | **string** |  | [optional] 
+**packing_slip** | **string** |  | [optional] 
+**dropship_flag** | **bool** |  | [optional] 
+**currency** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference**](CurrencyReference.md) |  | [optional] 
+**total** | **double** |  | [optional] 
+**billing_terms** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BillingTermsReference**](BillingTermsReference.md) |  | [optional] 
+**billing_terms_xref** | **string** |  | [optional] 
+**due_days** | **int** |  | [optional] 
+**vendor_number** | **string** |  | [optional] 
+**vendor_account_number** | **string** |  | [optional] 
+**vendor_invoice_date** | [**\DateTime**](\DateTime.md) |  | [optional] 
+**vendor_invoice_number** | **string** |  | [optional] 
+**tax_agency_xref** | **string** |  | [optional] 
+**state_tax_xref** | **string** |  | [optional] 
+**county_tax_xref** | **string** |  | [optional] 
+**city_tax_xref** | **string** |  | [optional] 
+**ship_to_company** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference**](CompanyReference.md) |  | [optional] 
+**ship_to_company_account_number** | **string** |  | [optional] 
+**ship_to_company_type** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyTypeReference**](CompanyTypeReference.md) |  | [optional] 
+**ship_to_contact** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ContactReference**](ContactReference.md) |  | [optional] 
+**ship_to_site** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\SiteReference**](SiteReference.md) |  | [optional] 
+**ship_to_tax_group** | **string** |  | [optional] 
+**tax_code** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference**](TaxCodeReference.md) |  | [optional] 
+**tax_group_rate** | **double** |  | [optional] 
+**use_avalara_tax_flag** | **bool** |  | [optional] 
+**purchase_header_tax_group** | **string** |  | [optional] 
+**purchase_header_taxable_flag** | **bool** |  | [optional] 
+**purchase_header_freight_taxable_flag** | **bool** |  | [optional] 
+**purchase_detail** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportPurchaseTransactionDetail[]**](GLExportPurchaseTransactionDetail.md) |  | [optional] 
+**purchase_detail_tax** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportPurchaseTransactionDetailTax[]**](GLExportPurchaseTransactionDetailTax.md) |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

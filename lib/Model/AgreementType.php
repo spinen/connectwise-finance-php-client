@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Finance\Model;
+namespace Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model;
 
 use \ArrayAccess;
 
@@ -96,8 +96,8 @@ class AgreementType implements ArrayAccess
         'invoice_description' => 'string',
         'top_comment_flag' => 'bool',
         'bottom_comment_flag' => 'bool',
-        'work_role' => '\Spinen\ConnectWise\Clients\Finance\Model\WorkRoleReference',
-        'work_type' => '\Spinen\ConnectWise\Clients\Finance\Model\WorkTypeReference',
+        'work_role' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\WorkRoleReference',
+        'work_type' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\WorkTypeReference',
         'project_type_id' => 'int',
         'invoice_template_setup_id' => 'int',
         'bill_time' => 'string',
@@ -108,7 +108,7 @@ class AgreementType implements ArrayAccess
         'billable_product_invoice_flag' => 'bool',
         'copy_work_roles_flag' => 'bool',
         'copy_work_types_flag' => 'bool',
-        '_info' => '\Spinen\ConnectWise\Clients\Finance\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -1614,7 +1614,7 @@ class AgreementType implements ArrayAccess
 
     /**
      * Gets work_role
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\WorkRoleReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\WorkRoleReference
      */
     public function getWorkRole()
     {
@@ -1623,7 +1623,7 @@ class AgreementType implements ArrayAccess
 
     /**
      * Sets work_role
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\WorkRoleReference $work_role
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\WorkRoleReference $work_role
      * @return $this
      */
     public function setWorkRole($work_role)
@@ -1635,7 +1635,7 @@ class AgreementType implements ArrayAccess
 
     /**
      * Gets work_type
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\WorkTypeReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\WorkTypeReference
      */
     public function getWorkType()
     {
@@ -1644,7 +1644,7 @@ class AgreementType implements ArrayAccess
 
     /**
      * Sets work_type
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\WorkTypeReference $work_type
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\WorkTypeReference $work_type
      * @return $this
      */
     public function setWorkType($work_type)
@@ -1878,7 +1878,7 @@ class AgreementType implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata
      */
     public function getInfo()
     {
@@ -1887,7 +1887,7 @@ class AgreementType implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

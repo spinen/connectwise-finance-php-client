@@ -59,15 +59,14 @@ require_once(__DIR__ . '/vendor/autoload.php');
 Spinen\ConnectWise\Clients\Finance\Configuration::getDefaultConfiguration()->setUsername('YOUR_USERNAME');
 Spinen\ConnectWise\Clients\Finance\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
-$api_instance = new Spinen\ConnectWise\Clients\Finance\Api\AccountingBatchTransactionsApi();
-$id = 56; // int | 
+$api_instance = new Spinen\ConnectWise\Clients\Finance\Api\AccountingBatchesApi();
 $conditions = "conditions_example"; // string | 
 
 try {
-    $result = $api_instance->financeAccountingBatchesIdTransactionsCountGet($id, $conditions);
+    $result = $api_instance->financeAccountingBatchesCountGet($conditions);
     print_r($result);
 } catch (Exception $e) {
-    echo 'Exception when calling AccountingBatchTransactionsApi->financeAccountingBatchesIdTransactionsCountGet: ', $e->getMessage(), PHP_EOL;
+    echo 'Exception when calling AccountingBatchesApi->financeAccountingBatchesCountGet: ', $e->getMessage(), PHP_EOL;
 }
 
 ?>
@@ -79,14 +78,13 @@ All URIs are relative to *https://api-na.myconnectwise.net/v4_6_release/apis/3.0
 
 Class | Method | HTTP request | Description
 ------------ | ------------- | ------------- | -------------
-*AccountingBatchTransactionsApi* | [**financeAccountingBatchesIdTransactionsCountGet**](docs/Api/AccountingBatchTransactionsApi.md#financeaccountingbatchesidtransactionscountget) | **GET** /finance/accounting/batches/{id}/transactions/count | 
-*AccountingBatchTransactionsApi* | [**financeAccountingBatchesIdTransactionsGet**](docs/Api/AccountingBatchTransactionsApi.md#financeaccountingbatchesidtransactionsget) | **GET** /finance/accounting/batches/{id}/transactions | 
-*AccountingBatchTransactionsApi* | [**financeAccountingBatchesIdTransactionsTransactionIdGet**](docs/Api/AccountingBatchTransactionsApi.md#financeaccountingbatchesidtransactionstransactionidget) | **GET** /finance/accounting/batches/{id}/transactions/{transactionId} | 
 *AccountingBatchesApi* | [**financeAccountingBatchesCountGet**](docs/Api/AccountingBatchesApi.md#financeaccountingbatchescountget) | **GET** /finance/accounting/batches/count | 
 *AccountingBatchesApi* | [**financeAccountingBatchesGet**](docs/Api/AccountingBatchesApi.md#financeaccountingbatchesget) | **GET** /finance/accounting/batches | 
 *AccountingBatchesApi* | [**financeAccountingBatchesIdDelete**](docs/Api/AccountingBatchesApi.md#financeaccountingbatchesiddelete) | **DELETE** /finance/accounting/batches/{id} | 
+*AccountingBatchesApi* | [**financeAccountingBatchesIdExportPost**](docs/Api/AccountingBatchesApi.md#financeaccountingbatchesidexportpost) | **POST** /finance/accounting/batches/{id}/export | 
 *AccountingBatchesApi* | [**financeAccountingBatchesIdGet**](docs/Api/AccountingBatchesApi.md#financeaccountingbatchesidget) | **GET** /finance/accounting/batches/{id} | 
 *AccountingBatchesApi* | [**financeAccountingBatchesPost**](docs/Api/AccountingBatchesApi.md#financeaccountingbatchespost) | **POST** /finance/accounting/batches | 
+*AccountingBatchesApi* | [**financeAccountingExportPost**](docs/Api/AccountingBatchesApi.md#financeaccountingexportpost) | **POST** /finance/accounting/export | 
 *AccountingUnpostedExpensesApi* | [**financeAccountingUnpostedexpensesCountGet**](docs/Api/AccountingUnpostedExpensesApi.md#financeaccountingunpostedexpensescountget) | **GET** /finance/accounting/unpostedexpenses/count | 
 *AccountingUnpostedExpensesApi* | [**financeAccountingUnpostedexpensesGet**](docs/Api/AccountingUnpostedExpensesApi.md#financeaccountingunpostedexpensesget) | **GET** /finance/accounting/unpostedexpenses | 
 *AccountingUnpostedExpensesApi* | [**financeAccountingUnpostedexpensesIdGet**](docs/Api/AccountingUnpostedExpensesApi.md#financeaccountingunpostedexpensesidget) | **GET** /finance/accounting/unpostedexpenses/{id} | 
@@ -204,7 +202,7 @@ Class | Method | HTTP request | Description
 
 ## Documentation For Models
 
- - [ActivityReference](docs/Model/ActivityReference.md)
+ - [AccountingBatch](docs/Model/AccountingBatch.md)
  - [Addition](docs/Model/Addition.md)
  - [Adjustment](docs/Model/Adjustment.md)
  - [Agreement](docs/Model/Agreement.md)
@@ -216,22 +214,41 @@ Class | Method | HTTP request | Description
  - [AgreementWorkRoleExclusion](docs/Model/AgreementWorkRoleExclusion.md)
  - [AgreementWorkType](docs/Model/AgreementWorkType.md)
  - [AgreementWorkTypeExclusion](docs/Model/AgreementWorkTypeExclusion.md)
- - [Batch](docs/Model/Batch.md)
- - [BatchReference](docs/Model/BatchReference.md)
  - [BillingStatusReference](docs/Model/BillingStatusReference.md)
  - [BillingTermsReference](docs/Model/BillingTermsReference.md)
  - [BoardDefault](docs/Model/BoardDefault.md)
  - [BoardReference](docs/Model/BoardReference.md)
  - [ChargeCodeReference](docs/Model/ChargeCodeReference.md)
+ - [ClassificationReference](docs/Model/ClassificationReference.md)
  - [CompanyReference](docs/Model/CompanyReference.md)
+ - [CompanyTypeReference](docs/Model/CompanyTypeReference.md)
  - [ConfigurationReference](docs/Model/ConfigurationReference.md)
  - [ContactReference](docs/Model/ContactReference.md)
  - [Count](docs/Model/Count.md)
  - [CountryReference](docs/Model/CountryReference.md)
+ - [CreateAccountingBatchRequest](docs/Model/CreateAccountingBatchRequest.md)
  - [Currency](docs/Model/Currency.md)
  - [CurrencyReference](docs/Model/CurrencyReference.md)
  - [Error](docs/Model/Error.md)
  - [ExpenseTypeReference](docs/Model/ExpenseTypeReference.md)
+ - [ExportAccountingBatchRequest](docs/Model/ExportAccountingBatchRequest.md)
+ - [GLExport](docs/Model/GLExport.md)
+ - [GLExportAdjustmentTransaction](docs/Model/GLExportAdjustmentTransaction.md)
+ - [GLExportAdjustmentTransactionDetail](docs/Model/GLExportAdjustmentTransactionDetail.md)
+ - [GLExportCustomer](docs/Model/GLExportCustomer.md)
+ - [GLExportExpense](docs/Model/GLExportExpense.md)
+ - [GLExportExpenseBill](docs/Model/GLExportExpenseBill.md)
+ - [GLExportExpenseBillDetail](docs/Model/GLExportExpenseBillDetail.md)
+ - [GLExportExpenseOffset](docs/Model/GLExportExpenseOffset.md)
+ - [GLExportInventoryTransfer](docs/Model/GLExportInventoryTransfer.md)
+ - [GLExportInventoryTransferOffset](docs/Model/GLExportInventoryTransferOffset.md)
+ - [GLExportPurchaseTransaction](docs/Model/GLExportPurchaseTransaction.md)
+ - [GLExportPurchaseTransactionDetail](docs/Model/GLExportPurchaseTransactionDetail.md)
+ - [GLExportPurchaseTransactionDetailTax](docs/Model/GLExportPurchaseTransactionDetailTax.md)
+ - [GLExportSettings](docs/Model/GLExportSettings.md)
+ - [GLExportTransaction](docs/Model/GLExportTransaction.md)
+ - [GLExportTransactionDetail](docs/Model/GLExportTransactionDetail.md)
+ - [GLExportVendor](docs/Model/GLExportVendor.md)
  - [Invoice](docs/Model/Invoice.md)
  - [InvoiceReference](docs/Model/InvoiceReference.md)
  - [IvItemReference](docs/Model/IvItemReference.md)
@@ -241,7 +258,7 @@ Class | Method | HTTP request | Description
  - [PatchOperation](docs/Model/PatchOperation.md)
  - [Payment](docs/Model/Payment.md)
  - [PaymentMethodReference](docs/Model/PaymentMethodReference.md)
- - [ProductReference](docs/Model/ProductReference.md)
+ - [ProductSubCategoryReference](docs/Model/ProductSubCategoryReference.md)
  - [ProjectPhaseReference](docs/Model/ProjectPhaseReference.md)
  - [ProjectReference](docs/Model/ProjectReference.md)
  - [PurchaseOrderReference](docs/Model/PurchaseOrderReference.md)
@@ -253,12 +270,13 @@ Class | Method | HTTP request | Description
  - [TaxCodeXRef](docs/Model/TaxCodeXRef.md)
  - [TicketReference](docs/Model/TicketReference.md)
  - [TimeEntryReference](docs/Model/TimeEntryReference.md)
- - [Transaction](docs/Model/Transaction.md)
  - [UnitOfMeasureReference](docs/Model/UnitOfMeasureReference.md)
  - [UnpostedExpense](docs/Model/UnpostedExpense.md)
  - [UnpostedInvoice](docs/Model/UnpostedInvoice.md)
  - [UnpostedProcurement](docs/Model/UnpostedProcurement.md)
  - [ValidationError](docs/Model/ValidationError.md)
+ - [WarehouseBinReference](docs/Model/WarehouseBinReference.md)
+ - [WarehouseReference](docs/Model/WarehouseReference.md)
  - [WorkRoleReference](docs/Model/WorkRoleReference.md)
  - [WorkTypeReference](docs/Model/WorkTypeReference.md)
 

@@ -458,4 +458,12 @@ class InvoiceTest extends \PHPUnit_Framework_TestCase
 
     }
 
+    /**
+     * Test attribute "_info"
+     */
+    public function testPropertyInfo()
+    {
+
+    }
+
 }

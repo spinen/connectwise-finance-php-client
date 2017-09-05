@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Finance\Model;
+namespace Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model;
 
 use \ArrayAccess;
 
@@ -63,8 +63,8 @@ class TaxCodeXRef implements ArrayAccess
         'level_three' => 'string',
         'level_four' => 'string',
         'level_five' => 'string',
-        'tax_code' => '\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference',
-        '_info' => '\Spinen\ConnectWise\Clients\Finance\Model\Metadata'
+        'tax_code' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference',
+        '_info' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -513,7 +513,7 @@ class TaxCodeXRef implements ArrayAccess
 
     /**
      * Gets tax_code
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference
      */
     public function getTaxCode()
     {
@@ -522,7 +522,7 @@ class TaxCodeXRef implements ArrayAccess
 
     /**
      * Sets tax_code
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference $tax_code
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference $tax_code
      * @return $this
      */
     public function setTaxCode($tax_code)
@@ -534,7 +534,7 @@ class TaxCodeXRef implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata
      */
     public function getInfo()
     {
@@ -543,7 +543,7 @@ class TaxCodeXRef implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

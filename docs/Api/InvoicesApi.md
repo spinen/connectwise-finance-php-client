@@ -16,7 +16,7 @@ Method | HTTP request | Description
 
 
 # **financeInvoicesCountGet**
-> \Spinen\ConnectWise\Clients\Finance\Model\Count financeInvoicesCountGet($conditions, $custom_field_conditions)
+> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count financeInvoicesCountGet($conditions, $custom_field_conditions)
 
 
 
@@ -53,7 +53,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -67,7 +67,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeInvoicesGet**
-> \Spinen\ConnectWise\Clients\Finance\Model\Invoice[] financeInvoicesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice[] financeInvoicesGet($conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -112,7 +112,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Model\Invoice[]**](../Model/Invoice.md)
+[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice[]**](../Model/Invoice.md)
 
 ### Authorization
 
@@ -174,7 +174,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeInvoicesIdGet**
-> \Spinen\ConnectWise\Clients\Finance\Model\Invoice financeInvoicesIdGet($id)
+> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice financeInvoicesIdGet($id)
 
 
 
@@ -209,7 +209,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Model\Invoice**](../Model/Invoice.md)
+[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice**](../Model/Invoice.md)
 
 ### Authorization
 
@@ -223,7 +223,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeInvoicesIdPatch**
-> \Spinen\ConnectWise\Clients\Finance\Model\Invoice financeInvoicesIdPatch($id, $operations)
+> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice financeInvoicesIdPatch($id, $operations)
 
 
 
@@ -240,7 +240,7 @@ Spinen\ConnectWise\Clients\Finance\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Finance\Api\InvoicesApi();
 $id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->financeInvoicesIdPatch($id, $operations);
@@ -256,11 +256,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Model\Invoice**](../Model/Invoice.md)
+[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice**](../Model/Invoice.md)
 
 ### Authorization
 
@@ -322,7 +322,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeInvoicesIdPut**
-> \Spinen\ConnectWise\Clients\Finance\Model\Invoice financeInvoicesIdPut($id, $invoice)
+> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice financeInvoicesIdPut($id, $invoice)
 
 
 
@@ -339,7 +339,7 @@ Spinen\ConnectWise\Clients\Finance\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Finance\Api\InvoicesApi();
 $id = 56; // int | 
-$invoice = new \Spinen\ConnectWise\Clients\Finance\Model\Invoice(); // \Spinen\ConnectWise\Clients\Finance\Model\Invoice | 
+$invoice = new \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice(); // \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice | 
 
 try {
     $result = $api_instance->financeInvoicesIdPut($id, $invoice);
@@ -355,11 +355,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **invoice** | [**\Spinen\ConnectWise\Clients\Finance\Model\Invoice**](../Model/\Spinen\ConnectWise\Clients\Finance\Model\Invoice.md)|  |
+ **invoice** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice**](../Model/\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Model\Invoice**](../Model/Invoice.md)
+[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice**](../Model/Invoice.md)
 
 ### Authorization
 
@@ -373,7 +373,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeInvoicesPost**
-> \Spinen\ConnectWise\Clients\Finance\Model\Invoice financeInvoicesPost($invoice)
+> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice financeInvoicesPost($invoice)
 
 
 
@@ -389,7 +389,7 @@ Spinen\ConnectWise\Clients\Finance\Configuration::getDefaultConfiguration()->set
 Spinen\ConnectWise\Clients\Finance\Configuration::getDefaultConfiguration()->setPassword('YOUR_PASSWORD');
 
 $api_instance = new Spinen\ConnectWise\Clients\Finance\Api\InvoicesApi();
-$invoice = new \Spinen\ConnectWise\Clients\Finance\Model\Invoice(); // \Spinen\ConnectWise\Clients\Finance\Model\Invoice | 
+$invoice = new \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice(); // \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice | 
 
 try {
     $result = $api_instance->financeInvoicesPost($invoice);
@@ -404,11 +404,11 @@ try {
 
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
- **invoice** | [**\Spinen\ConnectWise\Clients\Finance\Model\Invoice**](../Model/\Spinen\ConnectWise\Clients\Finance\Model\Invoice.md)|  |
+ **invoice** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice**](../Model/\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Model\Invoice**](../Model/Invoice.md)
+[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice**](../Model/Invoice.md)
 
 ### Authorization
 

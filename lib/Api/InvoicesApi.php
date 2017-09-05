@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Finance\Api;
+namespace Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Api;
 
 use \Spinen\ConnectWise\Clients\Finance\ApiClient;
 use \Spinen\ConnectWise\Clients\Finance\ApiException;
@@ -97,7 +97,7 @@ class InvoicesApi
      * @param string $conditions  (optional)
      * @param string $custom_field_conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\Count
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count
      */
     public function financeInvoicesCountGet($conditions = null, $custom_field_conditions = null)
     {
@@ -115,7 +115,7 @@ class InvoicesApi
      * @param string $conditions  (optional)
      * @param string $custom_field_conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Finance\Model\Count, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count, HTTP status code, HTTP response headers (array of strings)
      */
     public function financeInvoicesCountGetWithHttpInfo($conditions = null, $custom_field_conditions = null)
     {
@@ -161,19 +161,19 @@ class InvoicesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Finance\Model\Count',
+                '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count',
                 '/finance/invoices/count'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Model\Count', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Count', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -196,7 +196,7 @@ class InvoicesApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\Invoice[]
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice[]
      */
     public function financeInvoicesGet($conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -218,7 +218,7 @@ class InvoicesApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Finance\Model\Invoice[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice[], HTTP status code, HTTP response headers (array of strings)
      */
     public function financeInvoicesGetWithHttpInfo($conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -280,19 +280,19 @@ class InvoicesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Finance\Model\Invoice[]',
+                '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice[]',
                 '/finance/invoices'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Model\Invoice[]', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice[]', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Invoice[]', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice[]', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -385,7 +385,7 @@ class InvoicesApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -403,7 +403,7 @@ class InvoicesApi
      *
      * @param int $id  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\Invoice
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice
      */
     public function financeInvoicesIdGet($id)
     {
@@ -420,7 +420,7 @@ class InvoicesApi
      *
      * @param int $id  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Finance\Model\Invoice, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice, HTTP status code, HTTP response headers (array of strings)
      */
     public function financeInvoicesIdGetWithHttpInfo($id)
     {
@@ -470,19 +470,19 @@ class InvoicesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Finance\Model\Invoice',
+                '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice',
                 '/finance/invoices/{id}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Model\Invoice', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Invoice', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -499,9 +499,9 @@ class InvoicesApi
      * Spinen&#39;s PHP ConnectWise Client for Finance API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\Invoice
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice
      */
     public function financeInvoicesIdPatch($id, $operations)
     {
@@ -517,9 +517,9 @@ class InvoicesApi
      * Spinen&#39;s PHP ConnectWise Client for Finance API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Finance\Model\Invoice, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice, HTTP status code, HTTP response headers (array of strings)
      */
     public function financeInvoicesIdPatchWithHttpInfo($id, $operations)
     {
@@ -578,19 +578,19 @@ class InvoicesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Finance\Model\Invoice',
+                '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice',
                 '/finance/invoices/{id}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Model\Invoice', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Invoice', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -683,7 +683,7 @@ class InvoicesApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -700,9 +700,9 @@ class InvoicesApi
      * Spinen&#39;s PHP ConnectWise Client for Finance API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\Invoice $invoice  (required)
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice $invoice  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\Invoice
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice
      */
     public function financeInvoicesIdPut($id, $invoice)
     {
@@ -718,9 +718,9 @@ class InvoicesApi
      * Spinen&#39;s PHP ConnectWise Client for Finance API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\Invoice $invoice  (required)
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice $invoice  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Finance\Model\Invoice, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice, HTTP status code, HTTP response headers (array of strings)
      */
     public function financeInvoicesIdPutWithHttpInfo($id, $invoice)
     {
@@ -779,19 +779,19 @@ class InvoicesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Finance\Model\Invoice',
+                '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice',
                 '/finance/invoices/{id}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Model\Invoice', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Invoice', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -807,9 +807,9 @@ class InvoicesApi
      *
      * Spinen&#39;s PHP ConnectWise Client for Finance API generated by Swagger Code Generator.
      *
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\Invoice $invoice  (required)
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice $invoice  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\Invoice
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice
      */
     public function financeInvoicesPost($invoice)
     {
@@ -824,9 +824,9 @@ class InvoicesApi
      *
      * Spinen&#39;s PHP ConnectWise Client for Finance API generated by Swagger Code Generator.
      *
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\Invoice $invoice  (required)
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice $invoice  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Finance\Model\Invoice, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice, HTTP status code, HTTP response headers (array of strings)
      */
     public function financeInvoicesPostWithHttpInfo($invoice)
     {
@@ -873,19 +873,19 @@ class InvoicesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Finance\Model\Invoice',
+                '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice',
                 '/finance/invoices'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Model\Invoice', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Invoice', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Invoice', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

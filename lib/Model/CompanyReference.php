@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Finance\Model;
+namespace Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model;
 
 use \ArrayAccess;
 
@@ -35,6 +35,7 @@ use \ArrayAccess;
  * CompanyReference Class Doc Comment
  *
  * @category    Class */
+ // @description Vendor Can be either Member or Company Reference
 /**
  * @package     Spinen\ConnectWise\Clients\Finance
  * @author      Swagger Codegen team
@@ -58,7 +59,7 @@ class CompanyReference implements ArrayAccess
         'id' => 'int',
         'identifier' => 'string',
         'name' => 'string',
-        '_info' => '\Spinen\ConnectWise\Clients\Finance\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -226,7 +227,7 @@ class CompanyReference implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata
      */
     public function getInfo()
     {
@@ -235,7 +236,7 @@ class CompanyReference implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

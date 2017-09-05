@@ -14,7 +14,7 @@ Method | HTTP request | Description
 
 
 # **financeInvoicesIdPaymentsGet**
-> \Spinen\ConnectWise\Clients\Finance\Model\Payment[] financeInvoicesIdPaymentsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Payment[] financeInvoicesIdPaymentsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -61,7 +61,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Model\Payment[]**](../Model/Payment.md)
+[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Payment[]**](../Model/Payment.md)
 
 ### Authorization
 
@@ -125,7 +125,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeInvoicesIdPaymentsPaymentIdGet**
-> \Spinen\ConnectWise\Clients\Finance\Model\Payment financeInvoicesIdPaymentsPaymentIdGet($id, $payment_id)
+> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Payment financeInvoicesIdPaymentsPaymentIdGet($id, $payment_id)
 
 
 
@@ -162,7 +162,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Model\Payment**](../Model/Payment.md)
+[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Payment**](../Model/Payment.md)
 
 ### Authorization
 
@@ -176,7 +176,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeInvoicesIdPaymentsPaymentIdPatch**
-> \Spinen\ConnectWise\Clients\Finance\Model\Payment financeInvoicesIdPaymentsPaymentIdPatch($id, $payment_id, $operations)
+> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Payment financeInvoicesIdPaymentsPaymentIdPatch($id, $payment_id, $operations)
 
 
 
@@ -194,7 +194,7 @@ Spinen\ConnectWise\Clients\Finance\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Finance\Api\InvoicePaymentsApi();
 $id = 56; // int | 
 $payment_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->financeInvoicesIdPaymentsPaymentIdPatch($id, $payment_id, $operations);
@@ -211,11 +211,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **payment_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Model\Payment**](../Model/Payment.md)
+[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Payment**](../Model/Payment.md)
 
 ### Authorization
 
@@ -229,7 +229,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeInvoicesIdPaymentsPaymentIdPut**
-> \Spinen\ConnectWise\Clients\Finance\Model\Payment financeInvoicesIdPaymentsPaymentIdPut($id, $payment_id, $payment)
+> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Payment financeInvoicesIdPaymentsPaymentIdPut($id, $payment_id, $payment)
 
 
 
@@ -247,7 +247,7 @@ Spinen\ConnectWise\Clients\Finance\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Finance\Api\InvoicePaymentsApi();
 $id = 56; // int | 
 $payment_id = 56; // int | 
-$payment = new \Spinen\ConnectWise\Clients\Finance\Model\Payment(); // \Spinen\ConnectWise\Clients\Finance\Model\Payment | 
+$payment = new \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Payment(); // \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Payment | 
 
 try {
     $result = $api_instance->financeInvoicesIdPaymentsPaymentIdPut($id, $payment_id, $payment);
@@ -264,11 +264,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **payment_id** | **int**|  |
- **payment** | [**\Spinen\ConnectWise\Clients\Finance\Model\Payment**](../Model/\Spinen\ConnectWise\Clients\Finance\Model\Payment.md)|  |
+ **payment** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Payment**](../Model/\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Payment.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Model\Payment**](../Model/Payment.md)
+[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Payment**](../Model/Payment.md)
 
 ### Authorization
 
@@ -282,7 +282,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeInvoicesIdPaymentsPost**
-> \Spinen\ConnectWise\Clients\Finance\Model\Payment financeInvoicesIdPaymentsPost($id, $payment)
+> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Payment financeInvoicesIdPaymentsPost($id, $payment)
 
 
 
@@ -299,7 +299,7 @@ Spinen\ConnectWise\Clients\Finance\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Finance\Api\InvoicePaymentsApi();
 $id = 56; // int | 
-$payment = new \Spinen\ConnectWise\Clients\Finance\Model\Payment(); // \Spinen\ConnectWise\Clients\Finance\Model\Payment | 
+$payment = new \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Payment(); // \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Payment | 
 
 try {
     $result = $api_instance->financeInvoicesIdPaymentsPost($id, $payment);
@@ -315,11 +315,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **payment** | [**\Spinen\ConnectWise\Clients\Finance\Model\Payment**](../Model/\Spinen\ConnectWise\Clients\Finance\Model\Payment.md)|  |
+ **payment** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Payment**](../Model/\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Payment.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Model\Payment**](../Model/Payment.md)
+[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Payment**](../Model/Payment.md)
 
 ### Authorization
 

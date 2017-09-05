@@ -7,7 +7,7 @@ Name | Type | Description | Notes
 **identifier** | **string** |  | 
 **description** | **string** |  | 
 **invoice_caption** | **string** |  | 
-**country** | [**\Spinen\ConnectWise\Clients\Finance\Model\CountryReference**](CountryReference.md) |  | [optional] 
+**country** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CountryReference**](CountryReference.md) |  | [optional] 
 **effective_date** | [**\DateTime**](\DateTime.md) |  | 
 **default_flag** | **bool** |  | [optional] 
 **display_on_invoice_flag** | **bool** |  | [optional] 
@@ -73,7 +73,7 @@ Name | Type | Description | Notes
 **level_five_apply_single_unit_flag** | **bool** |  | [optional] 
 **level_five_apply_single_unit_min** | **double** |  | [optional] 
 **level_five_apply_single_unit_max** | **double** |  | [optional] 
-**_info** | [**\Spinen\ConnectWise\Clients\Finance\Model\Metadata**](Metadata.md) | Metadata of the entity | [optional] 
+**_info** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata**](Metadata.md) | Metadata of the entity | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

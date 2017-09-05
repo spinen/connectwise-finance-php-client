@@ -110,6 +110,17 @@ class AccountingBatchesApiTest extends \PHPUnit_Framework_TestCase
     }
 
     /**
+     * Test case for financeAccountingBatchesIdExportPost
+     *
+     * .
+     *
+     */
+    public function testFinanceAccountingBatchesIdExportPost()
+    {
+
+    }
+
+    /**
      * Test case for financeAccountingBatchesIdGet
      *
      * .
@@ -127,6 +138,17 @@ class AccountingBatchesApiTest extends \PHPUnit_Framework_TestCase
      *
      */
     public function testFinanceAccountingBatchesPost()
+    {
+
+    }
+
+    /**
+     * Test case for financeAccountingExportPost
+     *
+     * .
+     *
+     */
+    public function testFinanceAccountingExportPost()
     {
 
     }

@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Finance\Model;
+namespace Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model;
 
 use \ArrayAccess;
 
@@ -57,11 +57,11 @@ class Payment implements ArrayAccess
     protected static $swaggerTypes = [
         'id' => 'int',
         'type' => 'string',
-        'invoice' => '\Spinen\ConnectWise\Clients\Finance\Model\InvoiceReference',
+        'invoice' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\InvoiceReference',
         'amount' => 'double',
         'payment_date' => '\DateTime',
         'applied_by' => 'string',
-        '_info' => '\Spinen\ConnectWise\Clients\Finance\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -226,7 +226,7 @@ class Payment implements ArrayAccess
 
     /**
      * Gets invoice
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\InvoiceReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\InvoiceReference
      */
     public function getInvoice()
     {
@@ -235,7 +235,7 @@ class Payment implements ArrayAccess
 
     /**
      * Sets invoice
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\InvoiceReference $invoice
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\InvoiceReference $invoice
      * @return $this
      */
     public function setInvoice($invoice)
@@ -310,7 +310,7 @@ class Payment implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata
      */
     public function getInfo()
     {
@@ -319,7 +319,7 @@ class Payment implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

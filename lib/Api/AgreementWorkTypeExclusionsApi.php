@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Finance\Api;
+namespace Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Api;
 
 use \Spinen\ConnectWise\Clients\Finance\ApiClient;
 use \Spinen\ConnectWise\Clients\Finance\ApiException;
@@ -97,7 +97,7 @@ class AgreementWorkTypeExclusionsApi
      * @param int $id  (required)
      * @param string $conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\Count
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count
      */
     public function financeAgreementsIdWorkTypeExclusionsCountGet($id, $conditions = null)
     {
@@ -115,7 +115,7 @@ class AgreementWorkTypeExclusionsApi
      * @param int $id  (required)
      * @param string $conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Finance\Model\Count, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count, HTTP status code, HTTP response headers (array of strings)
      */
     public function financeAgreementsIdWorkTypeExclusionsCountGetWithHttpInfo($id, $conditions = null)
     {
@@ -169,19 +169,19 @@ class AgreementWorkTypeExclusionsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Finance\Model\Count',
+                '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count',
                 '/finance/agreements/{id}/workTypeExclusions/count'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Model\Count', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Count', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -205,7 +205,7 @@ class AgreementWorkTypeExclusionsApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion[]
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion[]
      */
     public function financeAgreementsIdWorkTypeExclusionsGet($id, $conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -228,7 +228,7 @@ class AgreementWorkTypeExclusionsApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion[], HTTP status code, HTTP response headers (array of strings)
      */
     public function financeAgreementsIdWorkTypeExclusionsGetWithHttpInfo($id, $conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -302,19 +302,19 @@ class AgreementWorkTypeExclusionsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion[]',
+                '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion[]',
                 '/finance/agreements/{id}/workTypeExclusions'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion[]', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion[]', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion[]', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion[]', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -331,9 +331,9 @@ class AgreementWorkTypeExclusionsApi
      * Spinen&#39;s PHP ConnectWise Client for Finance API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion $work_type_exclusion  (required)
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion $work_type_exclusion  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion
      */
     public function financeAgreementsIdWorkTypeExclusionsPost($id, $work_type_exclusion)
     {
@@ -349,9 +349,9 @@ class AgreementWorkTypeExclusionsApi
      * Spinen&#39;s PHP ConnectWise Client for Finance API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion $work_type_exclusion  (required)
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion $work_type_exclusion  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion, HTTP status code, HTTP response headers (array of strings)
      */
     public function financeAgreementsIdWorkTypeExclusionsPostWithHttpInfo($id, $work_type_exclusion)
     {
@@ -410,19 +410,19 @@ class AgreementWorkTypeExclusionsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion',
+                '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion',
                 '/finance/agreements/{id}/workTypeExclusions'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkTypeExclusion', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -529,7 +529,7 @@ class AgreementWorkTypeExclusionsApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

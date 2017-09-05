@@ -12,7 +12,7 @@ Method | HTTP request | Description
 
 
 # **financeAgreementsIdWorkRoleExclusionsCountGet**
-> \Spinen\ConnectWise\Clients\Finance\Model\Count financeAgreementsIdWorkRoleExclusionsCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count financeAgreementsIdWorkRoleExclusionsCountGet($id, $conditions)
 
 
 
@@ -49,7 +49,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -63,7 +63,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAgreementsIdWorkRoleExclusionsGet**
-> \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRoleExclusion[] financeAgreementsIdWorkRoleExclusionsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRoleExclusion[] financeAgreementsIdWorkRoleExclusionsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -110,7 +110,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRoleExclusion[]**](../Model/AgreementWorkRoleExclusion.md)
+[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRoleExclusion[]**](../Model/AgreementWorkRoleExclusion.md)
 
 ### Authorization
 
@@ -124,7 +124,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAgreementsIdWorkRoleExclusionsPost**
-> \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRoleExclusion financeAgreementsIdWorkRoleExclusionsPost($id, $work_role_exclusion)
+> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRoleExclusion financeAgreementsIdWorkRoleExclusionsPost($id, $work_role_exclusion)
 
 
 
@@ -141,7 +141,7 @@ Spinen\ConnectWise\Clients\Finance\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Finance\Api\AgreementWorkRoleExclusionsApi();
 $id = 56; // int | 
-$work_role_exclusion = new \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRoleExclusion(); // \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRoleExclusion | 
+$work_role_exclusion = new \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRoleExclusion(); // \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRoleExclusion | 
 
 try {
     $result = $api_instance->financeAgreementsIdWorkRoleExclusionsPost($id, $work_role_exclusion);
@@ -157,11 +157,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **work_role_exclusion** | [**\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRoleExclusion**](../Model/\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRoleExclusion.md)|  |
+ **work_role_exclusion** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRoleExclusion**](../Model/\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRoleExclusion.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRoleExclusion**](../Model/AgreementWorkRoleExclusion.md)
+[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRoleExclusion**](../Model/AgreementWorkRoleExclusion.md)
 
 ### Authorization
 

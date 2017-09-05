@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Finance\Model;
+namespace Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model;
 
 use \ArrayAccess;
 
@@ -60,13 +60,13 @@ class UnpostedProcurement implements ArrayAccess
         'location_id' => 'int',
         'department_id' => 'int',
         'procurement_type' => 'string',
-        'purchase_order' => '\Spinen\ConnectWise\Clients\Finance\Model\PurchaseOrderReference',
+        'purchase_order' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PurchaseOrderReference',
         'purchase_date' => '\DateTime',
         'tracking_number' => 'string',
-        'billing_terms' => '\Spinen\ConnectWise\Clients\Finance\Model\BillingTermsReference',
-        'currency' => '\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference',
+        'billing_terms' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BillingTermsReference',
+        'currency' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference',
         'total' => 'double',
-        'tax_code' => '\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference',
+        'tax_code' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference',
         'avalara_tax_flag' => 'bool',
         'item_taxable_flag' => 'bool',
         'purchase_order_taxable_flag' => 'bool',
@@ -86,8 +86,8 @@ class UnpostedProcurement implements ArrayAccess
         'composite_tax_xref' => 'string',
         'composite_tax_amount' => 'double',
         'tax_total' => 'double',
-        'customer' => '\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference',
-        'vendor' => '\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference',
+        'customer' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference',
+        'vendor' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference',
         'vendor_account_number' => 'string',
         'vendor_invoice_number' => 'string',
         'vendor_invoice_date' => '\DateTime',
@@ -95,7 +95,7 @@ class UnpostedProcurement implements ArrayAccess
         'freight_tax_total' => 'double',
         'freight_cost' => 'double',
         'date_closed' => '\DateTime',
-        '_info' => '\Spinen\ConnectWise\Clients\Finance\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -482,7 +482,7 @@ class UnpostedProcurement implements ArrayAccess
 
     /**
      * Gets purchase_order
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\PurchaseOrderReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PurchaseOrderReference
      */
     public function getPurchaseOrder()
     {
@@ -491,7 +491,7 @@ class UnpostedProcurement implements ArrayAccess
 
     /**
      * Sets purchase_order
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\PurchaseOrderReference $purchase_order
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PurchaseOrderReference $purchase_order
      * @return $this
      */
     public function setPurchaseOrder($purchase_order)
@@ -545,7 +545,7 @@ class UnpostedProcurement implements ArrayAccess
 
     /**
      * Gets billing_terms
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\BillingTermsReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BillingTermsReference
      */
     public function getBillingTerms()
     {
@@ -554,7 +554,7 @@ class UnpostedProcurement implements ArrayAccess
 
     /**
      * Sets billing_terms
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\BillingTermsReference $billing_terms
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BillingTermsReference $billing_terms
      * @return $this
      */
     public function setBillingTerms($billing_terms)
@@ -566,7 +566,7 @@ class UnpostedProcurement implements ArrayAccess
 
     /**
      * Gets currency
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference
      */
     public function getCurrency()
     {
@@ -575,7 +575,7 @@ class UnpostedProcurement implements ArrayAccess
 
     /**
      * Sets currency
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference $currency
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference $currency
      * @return $this
      */
     public function setCurrency($currency)
@@ -608,7 +608,7 @@ class UnpostedProcurement implements ArrayAccess
 
     /**
      * Gets tax_code
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference
      */
     public function getTaxCode()
     {
@@ -617,7 +617,7 @@ class UnpostedProcurement implements ArrayAccess
 
     /**
      * Sets tax_code
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference $tax_code
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference $tax_code
      * @return $this
      */
     public function setTaxCode($tax_code)
@@ -1028,7 +1028,7 @@ class UnpostedProcurement implements ArrayAccess
 
     /**
      * Gets customer
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference
      */
     public function getCustomer()
     {
@@ -1037,7 +1037,7 @@ class UnpostedProcurement implements ArrayAccess
 
     /**
      * Sets customer
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\CompanyReference $customer
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference $customer
      * @return $this
      */
     public function setCustomer($customer)
@@ -1049,7 +1049,7 @@ class UnpostedProcurement implements ArrayAccess
 
     /**
      * Gets vendor
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference
      */
     public function getVendor()
     {
@@ -1058,7 +1058,7 @@ class UnpostedProcurement implements ArrayAccess
 
     /**
      * Sets vendor
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\CompanyReference $vendor
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference $vendor
      * @return $this
      */
     public function setVendor($vendor)
@@ -1217,7 +1217,7 @@ class UnpostedProcurement implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata
      */
     public function getInfo()
     {
@@ -1226,7 +1226,7 @@ class UnpostedProcurement implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

@@ -6,16 +6,16 @@ Name | Type | Description | Notes
 **id** | **int** |  | [optional] 
 **invoice_number** | **string** |  | [optional] 
 **type** | **string** |  | 
-**status** | [**\Spinen\ConnectWise\Clients\Finance\Model\BillingStatusReference**](BillingStatusReference.md) |  | [optional] 
-**company** | [**\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference**](CompanyReference.md) |  | 
-**bill_to_company** | [**\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference**](CompanyReference.md) |  | [optional] 
-**ship_to_company** | [**\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference**](CompanyReference.md) |  | [optional] 
+**status** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BillingStatusReference**](BillingStatusReference.md) |  | [optional] 
+**company** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference**](CompanyReference.md) |  | 
+**bill_to_company** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference**](CompanyReference.md) |  | [optional] 
+**ship_to_company** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference**](CompanyReference.md) |  | [optional] 
 **apply_to_type** | **string** |  | [optional] 
 **apply_to_id** | **int** |  | [optional] 
 **attention** | **string** |  | [optional] 
-**billing_site** | [**\Spinen\ConnectWise\Clients\Finance\Model\SiteReference**](SiteReference.md) |  | [optional] 
-**shipping_site** | [**\Spinen\ConnectWise\Clients\Finance\Model\SiteReference**](SiteReference.md) |  | [optional] 
-**billing_terms** | [**\Spinen\ConnectWise\Clients\Finance\Model\BillingTermsReference**](BillingTermsReference.md) |  | [optional] 
+**billing_site** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\SiteReference**](SiteReference.md) |  | [optional] 
+**shipping_site** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\SiteReference**](SiteReference.md) |  | [optional] 
+**billing_terms** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BillingTermsReference**](BillingTermsReference.md) |  | [optional] 
 **reference** | **string** |  | [optional] 
 **customer_po** | **string** |  | [optional] 
 **template_setup_id** | **int** | Can be obtained via InvoiceTemplate report | [optional] 
@@ -29,7 +29,7 @@ Name | Type | Description | Notes
 **top_comment** | **string** |  | [optional] 
 **bottom_comment** | **string** |  | [optional] 
 **taxable_flag** | **bool** |  | [optional] 
-**tax_code** | [**\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference**](TaxCodeReference.md) |  | [optional] 
+**tax_code** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference**](TaxCodeReference.md) |  | [optional] 
 **internal_notes** | **string** |  | [optional] 
 **downpayment_previously_taxed_flag** | **bool** |  | [optional] 
 **service_total** | **double** |  | [optional] 
@@ -50,6 +50,7 @@ Name | Type | Description | Notes
 **credits** | **double** |  | [optional] 
 **balance** | **double** |  | [optional] 
 **special_invoice_flag** | **bool** |  | [optional] 
+**_info** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata**](Metadata.md) | Metadata of the entity | [optional] 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 

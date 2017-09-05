@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Finance\Model;
+namespace Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model;
 
 use \ArrayAccess;
 
@@ -56,10 +56,10 @@ class AgreementSite implements ArrayAccess
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-        'company' => '\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference',
-        'site' => '\Spinen\ConnectWise\Clients\Finance\Model\SiteReference',
+        'company' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference',
+        'site' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\SiteReference',
         'agreement_id' => 'int',
-        '_info' => '\Spinen\ConnectWise\Clients\Finance\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -195,7 +195,7 @@ class AgreementSite implements ArrayAccess
 
     /**
      * Gets company
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference
      */
     public function getCompany()
     {
@@ -204,7 +204,7 @@ class AgreementSite implements ArrayAccess
 
     /**
      * Sets company
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\CompanyReference $company
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference $company
      * @return $this
      */
     public function setCompany($company)
@@ -216,7 +216,7 @@ class AgreementSite implements ArrayAccess
 
     /**
      * Gets site
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\SiteReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\SiteReference
      */
     public function getSite()
     {
@@ -225,7 +225,7 @@ class AgreementSite implements ArrayAccess
 
     /**
      * Sets site
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\SiteReference $site
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\SiteReference $site
      * @return $this
      */
     public function setSite($site)
@@ -258,7 +258,7 @@ class AgreementSite implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata
      */
     public function getInfo()
     {
@@ -267,7 +267,7 @@ class AgreementSite implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

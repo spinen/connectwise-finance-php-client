@@ -65,7 +65,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAgreementsIdAdjustmentsAdjustmentIdGet**
-> \Spinen\ConnectWise\Clients\Finance\Model\Adjustment financeAgreementsIdAdjustmentsAdjustmentIdGet($id, $adjustment_id)
+> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment financeAgreementsIdAdjustmentsAdjustmentIdGet($id, $adjustment_id)
 
 
 
@@ -102,7 +102,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Model\Adjustment**](../Model/Adjustment.md)
+[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment**](../Model/Adjustment.md)
 
 ### Authorization
 
@@ -116,7 +116,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAgreementsIdAdjustmentsAdjustmentIdPatch**
-> \Spinen\ConnectWise\Clients\Finance\Model\Adjustment financeAgreementsIdAdjustmentsAdjustmentIdPatch($id, $adjustment_id, $operations)
+> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment financeAgreementsIdAdjustmentsAdjustmentIdPatch($id, $adjustment_id, $operations)
 
 
 
@@ -134,7 +134,7 @@ Spinen\ConnectWise\Clients\Finance\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Finance\Api\AgreementAdjustmentsApi();
 $id = 56; // int | 
 $adjustment_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->financeAgreementsIdAdjustmentsAdjustmentIdPatch($id, $adjustment_id, $operations);
@@ -151,11 +151,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **adjustment_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Model\Adjustment**](../Model/Adjustment.md)
+[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment**](../Model/Adjustment.md)
 
 ### Authorization
 
@@ -169,7 +169,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAgreementsIdAdjustmentsAdjustmentIdPut**
-> \Spinen\ConnectWise\Clients\Finance\Model\Adjustment financeAgreementsIdAdjustmentsAdjustmentIdPut($id, $adjustment_id, $adjustment)
+> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment financeAgreementsIdAdjustmentsAdjustmentIdPut($id, $adjustment_id, $adjustment)
 
 
 
@@ -187,7 +187,7 @@ Spinen\ConnectWise\Clients\Finance\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Finance\Api\AgreementAdjustmentsApi();
 $id = 56; // int | 
 $adjustment_id = 56; // int | 
-$adjustment = new \Spinen\ConnectWise\Clients\Finance\Model\Adjustment(); // \Spinen\ConnectWise\Clients\Finance\Model\Adjustment | 
+$adjustment = new \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment(); // \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment | 
 
 try {
     $result = $api_instance->financeAgreementsIdAdjustmentsAdjustmentIdPut($id, $adjustment_id, $adjustment);
@@ -204,11 +204,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **adjustment_id** | **int**|  |
- **adjustment** | [**\Spinen\ConnectWise\Clients\Finance\Model\Adjustment**](../Model/\Spinen\ConnectWise\Clients\Finance\Model\Adjustment.md)|  |
+ **adjustment** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment**](../Model/\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Model\Adjustment**](../Model/Adjustment.md)
+[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment**](../Model/Adjustment.md)
 
 ### Authorization
 
@@ -222,7 +222,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAgreementsIdAdjustmentsCountGet**
-> \Spinen\ConnectWise\Clients\Finance\Model\Count financeAgreementsIdAdjustmentsCountGet($id, $conditions, $custom_field_conditions)
+> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count financeAgreementsIdAdjustmentsCountGet($id, $conditions, $custom_field_conditions)
 
 
 
@@ -261,7 +261,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -275,7 +275,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAgreementsIdAdjustmentsGet**
-> \Spinen\ConnectWise\Clients\Finance\Model\Adjustment[] financeAgreementsIdAdjustmentsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment[] financeAgreementsIdAdjustmentsGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -322,7 +322,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Model\Adjustment[]**](../Model/Adjustment.md)
+[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment[]**](../Model/Adjustment.md)
 
 ### Authorization
 
@@ -336,7 +336,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAgreementsIdAdjustmentsPost**
-> \Spinen\ConnectWise\Clients\Finance\Model\Adjustment financeAgreementsIdAdjustmentsPost($id, $adjustment)
+> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment financeAgreementsIdAdjustmentsPost($id, $adjustment)
 
 
 
@@ -353,7 +353,7 @@ Spinen\ConnectWise\Clients\Finance\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Finance\Api\AgreementAdjustmentsApi();
 $id = 56; // int | 
-$adjustment = new \Spinen\ConnectWise\Clients\Finance\Model\Adjustment(); // \Spinen\ConnectWise\Clients\Finance\Model\Adjustment | 
+$adjustment = new \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment(); // \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment | 
 
 try {
     $result = $api_instance->financeAgreementsIdAdjustmentsPost($id, $adjustment);
@@ -369,11 +369,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **adjustment** | [**\Spinen\ConnectWise\Clients\Finance\Model\Adjustment**](../Model/\Spinen\ConnectWise\Clients\Finance\Model\Adjustment.md)|  |
+ **adjustment** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment**](../Model/\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Model\Adjustment**](../Model/Adjustment.md)
+[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment**](../Model/Adjustment.md)
 
 ### Authorization
 

@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Finance\Api;
+namespace Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Api;
 
 use \Spinen\ConnectWise\Clients\Finance\ApiClient;
 use \Spinen\ConnectWise\Clients\Finance\ApiException;
@@ -97,7 +97,7 @@ class AgreementWorkRolesApi
      * @param int $id  (required)
      * @param string $conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\Count
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count
      */
     public function financeAgreementsIdWorkrolesCountGet($id, $conditions = null)
     {
@@ -115,7 +115,7 @@ class AgreementWorkRolesApi
      * @param int $id  (required)
      * @param string $conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Finance\Model\Count, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count, HTTP status code, HTTP response headers (array of strings)
      */
     public function financeAgreementsIdWorkrolesCountGetWithHttpInfo($id, $conditions = null)
     {
@@ -169,19 +169,19 @@ class AgreementWorkRolesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Finance\Model\Count',
+                '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count',
                 '/finance/agreements/{id}/workroles/count'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Model\Count', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Count', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -205,7 +205,7 @@ class AgreementWorkRolesApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole[]
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole[]
      */
     public function financeAgreementsIdWorkrolesGet($id, $conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -228,7 +228,7 @@ class AgreementWorkRolesApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole[], HTTP status code, HTTP response headers (array of strings)
      */
     public function financeAgreementsIdWorkrolesGetWithHttpInfo($id, $conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -302,19 +302,19 @@ class AgreementWorkRolesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole[]',
+                '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole[]',
                 '/finance/agreements/{id}/workroles'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole[]', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole[]', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole[]', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole[]', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -331,9 +331,9 @@ class AgreementWorkRolesApi
      * Spinen&#39;s PHP ConnectWise Client for Finance API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole $work_role  (required)
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole $work_role  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole
      */
     public function financeAgreementsIdWorkrolesPost($id, $work_role)
     {
@@ -349,9 +349,9 @@ class AgreementWorkRolesApi
      * Spinen&#39;s PHP ConnectWise Client for Finance API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole $work_role  (required)
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole $work_role  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole, HTTP status code, HTTP response headers (array of strings)
      */
     public function financeAgreementsIdWorkrolesPostWithHttpInfo($id, $work_role)
     {
@@ -410,19 +410,19 @@ class AgreementWorkRolesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole',
+                '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole',
                 '/finance/agreements/{id}/workroles'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -529,7 +529,7 @@ class AgreementWorkRolesApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -548,7 +548,7 @@ class AgreementWorkRolesApi
      * @param int $id  (required)
      * @param int $work_role_id  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole
      */
     public function financeAgreementsIdWorkrolesWorkRoleIdGet($id, $work_role_id)
     {
@@ -566,7 +566,7 @@ class AgreementWorkRolesApi
      * @param int $id  (required)
      * @param int $work_role_id  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole, HTTP status code, HTTP response headers (array of strings)
      */
     public function financeAgreementsIdWorkrolesWorkRoleIdGetWithHttpInfo($id, $work_role_id)
     {
@@ -628,19 +628,19 @@ class AgreementWorkRolesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole',
+                '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole',
                 '/finance/agreements/{id}/workroles/{workRoleId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -658,9 +658,9 @@ class AgreementWorkRolesApi
      *
      * @param int $id  (required)
      * @param int $work_role_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole
      */
     public function financeAgreementsIdWorkrolesWorkRoleIdPatch($id, $work_role_id, $operations)
     {
@@ -677,9 +677,9 @@ class AgreementWorkRolesApi
      *
      * @param int $id  (required)
      * @param int $work_role_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole, HTTP status code, HTTP response headers (array of strings)
      */
     public function financeAgreementsIdWorkrolesWorkRoleIdPatchWithHttpInfo($id, $work_role_id, $operations)
     {
@@ -750,19 +750,19 @@ class AgreementWorkRolesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole',
+                '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole',
                 '/finance/agreements/{id}/workroles/{workRoleId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -780,9 +780,9 @@ class AgreementWorkRolesApi
      *
      * @param int $id  (required)
      * @param int $work_role_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole $work_role  (required)
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole $work_role  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole
      */
     public function financeAgreementsIdWorkrolesWorkRoleIdPut($id, $work_role_id, $work_role)
     {
@@ -799,9 +799,9 @@ class AgreementWorkRolesApi
      *
      * @param int $id  (required)
      * @param int $work_role_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole $work_role  (required)
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole $work_role  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole, HTTP status code, HTTP response headers (array of strings)
      */
     public function financeAgreementsIdWorkrolesWorkRoleIdPutWithHttpInfo($id, $work_role_id, $work_role)
     {
@@ -872,19 +872,19 @@ class AgreementWorkRolesApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole',
+                '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole',
                 '/finance/agreements/{id}/workroles/{workRoleId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementWorkRole', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

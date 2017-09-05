@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Finance\Api;
+namespace Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Api;
 
 use \Spinen\ConnectWise\Clients\Finance\ApiClient;
 use \Spinen\ConnectWise\Clients\Finance\ApiException;
@@ -185,7 +185,7 @@ class AgreementAdditionsApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -204,7 +204,7 @@ class AgreementAdditionsApi
      * @param int $id  (required)
      * @param int $addition_id  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\Addition
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition
      */
     public function financeAgreementsIdAdditionsAdditionIdGet($id, $addition_id)
     {
@@ -222,7 +222,7 @@ class AgreementAdditionsApi
      * @param int $id  (required)
      * @param int $addition_id  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Finance\Model\Addition, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition, HTTP status code, HTTP response headers (array of strings)
      */
     public function financeAgreementsIdAdditionsAdditionIdGetWithHttpInfo($id, $addition_id)
     {
@@ -284,19 +284,19 @@ class AgreementAdditionsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Finance\Model\Addition',
+                '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition',
                 '/finance/agreements/{id}/additions/{additionId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Model\Addition', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Addition', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -314,9 +314,9 @@ class AgreementAdditionsApi
      *
      * @param int $id  (required)
      * @param int $addition_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\Addition
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition
      */
     public function financeAgreementsIdAdditionsAdditionIdPatch($id, $addition_id, $operations)
     {
@@ -333,9 +333,9 @@ class AgreementAdditionsApi
      *
      * @param int $id  (required)
      * @param int $addition_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Finance\Model\Addition, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition, HTTP status code, HTTP response headers (array of strings)
      */
     public function financeAgreementsIdAdditionsAdditionIdPatchWithHttpInfo($id, $addition_id, $operations)
     {
@@ -406,19 +406,19 @@ class AgreementAdditionsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Finance\Model\Addition',
+                '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition',
                 '/finance/agreements/{id}/additions/{additionId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Model\Addition', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Addition', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -436,9 +436,9 @@ class AgreementAdditionsApi
      *
      * @param int $id  (required)
      * @param int $addition_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\Addition $addition  (required)
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition $addition  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\Addition
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition
      */
     public function financeAgreementsIdAdditionsAdditionIdPut($id, $addition_id, $addition)
     {
@@ -455,9 +455,9 @@ class AgreementAdditionsApi
      *
      * @param int $id  (required)
      * @param int $addition_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\Addition $addition  (required)
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition $addition  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Finance\Model\Addition, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition, HTTP status code, HTTP response headers (array of strings)
      */
     public function financeAgreementsIdAdditionsAdditionIdPutWithHttpInfo($id, $addition_id, $addition)
     {
@@ -528,19 +528,19 @@ class AgreementAdditionsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Finance\Model\Addition',
+                '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition',
                 '/finance/agreements/{id}/additions/{additionId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Model\Addition', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Addition', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -560,7 +560,7 @@ class AgreementAdditionsApi
      * @param string $conditions  (optional)
      * @param string $custom_field_conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\Count
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count
      */
     public function financeAgreementsIdAdditionsCountGet($id, $conditions = null, $custom_field_conditions = null)
     {
@@ -579,7 +579,7 @@ class AgreementAdditionsApi
      * @param string $conditions  (optional)
      * @param string $custom_field_conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Finance\Model\Count, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count, HTTP status code, HTTP response headers (array of strings)
      */
     public function financeAgreementsIdAdditionsCountGetWithHttpInfo($id, $conditions = null, $custom_field_conditions = null)
     {
@@ -637,19 +637,19 @@ class AgreementAdditionsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Finance\Model\Count',
+                '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count',
                 '/finance/agreements/{id}/additions/count'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Model\Count', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Count', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -673,7 +673,7 @@ class AgreementAdditionsApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\Addition[]
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition[]
      */
     public function financeAgreementsIdAdditionsGet($id, $conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -696,7 +696,7 @@ class AgreementAdditionsApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Finance\Model\Addition[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition[], HTTP status code, HTTP response headers (array of strings)
      */
     public function financeAgreementsIdAdditionsGetWithHttpInfo($id, $conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -770,19 +770,19 @@ class AgreementAdditionsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Finance\Model\Addition[]',
+                '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition[]',
                 '/finance/agreements/{id}/additions'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Model\Addition[]', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition[]', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Addition[]', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition[]', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -799,9 +799,9 @@ class AgreementAdditionsApi
      * Spinen&#39;s PHP ConnectWise Client for Finance API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\Addition $addition  (required)
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition $addition  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\Addition
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition
      */
     public function financeAgreementsIdAdditionsPost($id, $addition)
     {
@@ -817,9 +817,9 @@ class AgreementAdditionsApi
      * Spinen&#39;s PHP ConnectWise Client for Finance API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\Addition $addition  (required)
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition $addition  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Finance\Model\Addition, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition, HTTP status code, HTTP response headers (array of strings)
      */
     public function financeAgreementsIdAdditionsPostWithHttpInfo($id, $addition)
     {
@@ -878,19 +878,19 @@ class AgreementAdditionsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Finance\Model\Addition',
+                '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition',
                 '/finance/agreements/{id}/additions'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Model\Addition', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Addition', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Addition', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

@@ -26,7 +26,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Finance\Api;
+namespace Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Api;
 
 use \Spinen\ConnectWise\Clients\Finance\ApiClient;
 use \Spinen\ConnectWise\Clients\Finance\ApiException;
@@ -185,7 +185,7 @@ class AgreementAdjustmentsApi
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -204,7 +204,7 @@ class AgreementAdjustmentsApi
      * @param int $id  (required)
      * @param int $adjustment_id  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\Adjustment
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment
      */
     public function financeAgreementsIdAdjustmentsAdjustmentIdGet($id, $adjustment_id)
     {
@@ -222,7 +222,7 @@ class AgreementAdjustmentsApi
      * @param int $id  (required)
      * @param int $adjustment_id  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Finance\Model\Adjustment, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment, HTTP status code, HTTP response headers (array of strings)
      */
     public function financeAgreementsIdAdjustmentsAdjustmentIdGetWithHttpInfo($id, $adjustment_id)
     {
@@ -284,19 +284,19 @@ class AgreementAdjustmentsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Finance\Model\Adjustment',
+                '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment',
                 '/finance/agreements/{id}/adjustments/{adjustmentId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Model\Adjustment', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Adjustment', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -314,9 +314,9 @@ class AgreementAdjustmentsApi
      *
      * @param int $id  (required)
      * @param int $adjustment_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\Adjustment
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment
      */
     public function financeAgreementsIdAdjustmentsAdjustmentIdPatch($id, $adjustment_id, $operations)
     {
@@ -333,9 +333,9 @@ class AgreementAdjustmentsApi
      *
      * @param int $id  (required)
      * @param int $adjustment_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[] $operations  (required)
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[] $operations  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Finance\Model\Adjustment, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment, HTTP status code, HTTP response headers (array of strings)
      */
     public function financeAgreementsIdAdjustmentsAdjustmentIdPatchWithHttpInfo($id, $adjustment_id, $operations)
     {
@@ -406,19 +406,19 @@ class AgreementAdjustmentsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Finance\Model\Adjustment',
+                '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment',
                 '/finance/agreements/{id}/adjustments/{adjustmentId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Model\Adjustment', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Adjustment', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -436,9 +436,9 @@ class AgreementAdjustmentsApi
      *
      * @param int $id  (required)
      * @param int $adjustment_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\Adjustment $adjustment  (required)
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment $adjustment  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\Adjustment
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment
      */
     public function financeAgreementsIdAdjustmentsAdjustmentIdPut($id, $adjustment_id, $adjustment)
     {
@@ -455,9 +455,9 @@ class AgreementAdjustmentsApi
      *
      * @param int $id  (required)
      * @param int $adjustment_id  (required)
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\Adjustment $adjustment  (required)
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment $adjustment  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Finance\Model\Adjustment, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment, HTTP status code, HTTP response headers (array of strings)
      */
     public function financeAgreementsIdAdjustmentsAdjustmentIdPutWithHttpInfo($id, $adjustment_id, $adjustment)
     {
@@ -528,19 +528,19 @@ class AgreementAdjustmentsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Finance\Model\Adjustment',
+                '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment',
                 '/finance/agreements/{id}/adjustments/{adjustmentId}'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Model\Adjustment', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Adjustment', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -560,7 +560,7 @@ class AgreementAdjustmentsApi
      * @param string $conditions  (optional)
      * @param string $custom_field_conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\Count
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count
      */
     public function financeAgreementsIdAdjustmentsCountGet($id, $conditions = null, $custom_field_conditions = null)
     {
@@ -579,7 +579,7 @@ class AgreementAdjustmentsApi
      * @param string $conditions  (optional)
      * @param string $custom_field_conditions  (optional)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Finance\Model\Count, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count, HTTP status code, HTTP response headers (array of strings)
      */
     public function financeAgreementsIdAdjustmentsCountGetWithHttpInfo($id, $conditions = null, $custom_field_conditions = null)
     {
@@ -637,19 +637,19 @@ class AgreementAdjustmentsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Finance\Model\Count',
+                '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count',
                 '/finance/agreements/{id}/adjustments/count'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Model\Count', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Count', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -673,7 +673,7 @@ class AgreementAdjustmentsApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\Adjustment[]
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment[]
      */
     public function financeAgreementsIdAdjustmentsGet($id, $conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -696,7 +696,7 @@ class AgreementAdjustmentsApi
      * @param int $page  (optional)
      * @param int $page_size  (optional)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Finance\Model\Adjustment[], HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment[], HTTP status code, HTTP response headers (array of strings)
      */
     public function financeAgreementsIdAdjustmentsGetWithHttpInfo($id, $conditions = null, $order_by = null, $childconditions = null, $customfieldconditions = null, $page = null, $page_size = null)
     {
@@ -770,19 +770,19 @@ class AgreementAdjustmentsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Finance\Model\Adjustment[]',
+                '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment[]',
                 '/finance/agreements/{id}/adjustments'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Model\Adjustment[]', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment[]', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 200:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Adjustment[]', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment[]', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }
@@ -799,9 +799,9 @@ class AgreementAdjustmentsApi
      * Spinen&#39;s PHP ConnectWise Client for Finance API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\Adjustment $adjustment  (required)
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment $adjustment  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\Adjustment
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment
      */
     public function financeAgreementsIdAdjustmentsPost($id, $adjustment)
     {
@@ -817,9 +817,9 @@ class AgreementAdjustmentsApi
      * Spinen&#39;s PHP ConnectWise Client for Finance API generated by Swagger Code Generator.
      *
      * @param int $id  (required)
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\Adjustment $adjustment  (required)
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment $adjustment  (required)
      * @throws \Spinen\ConnectWise\Clients\Finance\ApiException on non-2xx response
-     * @return array of \Spinen\ConnectWise\Clients\Finance\Model\Adjustment, HTTP status code, HTTP response headers (array of strings)
+     * @return array of \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment, HTTP status code, HTTP response headers (array of strings)
      */
     public function financeAgreementsIdAdjustmentsPostWithHttpInfo($id, $adjustment)
     {
@@ -878,19 +878,19 @@ class AgreementAdjustmentsApi
                 $queryParams,
                 $httpBody,
                 $headerParams,
-                '\Spinen\ConnectWise\Clients\Finance\Model\Adjustment',
+                '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment',
                 '/finance/agreements/{id}/adjustments'
             );
 
-            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Model\Adjustment', $httpHeader), $statusCode, $httpHeader];
+            return [$this->apiClient->getSerializer()->deserialize($response, '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment', $httpHeader), $statusCode, $httpHeader];
         } catch (ApiException $e) {
             switch ($e->getCode()) {
                 case 201:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Adjustment', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Adjustment', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
                 case 401:
-                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
+                    $data = $this->apiClient->getSerializer()->deserialize($e->getResponseBody(), '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Error', $e->getResponseHeaders());
                     $e->setResponseObject($data);
                     break;
             }

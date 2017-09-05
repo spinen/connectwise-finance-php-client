@@ -1,0 +1,51 @@
+# GLExportInventoryTransfer
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**id** | **string** |  | [optional] 
+**document_type** | **string** |  | [optional] 
+**document_date** | [**\DateTime**](\DateTime.md) |  | [optional] 
+**account_number** | **string** |  | [optional] 
+**gl_class** | **string** |  | [optional] 
+**gl_type_id** | **string** |  | [optional] 
+**description** | **string** |  | [optional] 
+**sales_code** | **string** |  | [optional] 
+**memo** | **string** |  | [optional] 
+**cost_acccount_number** | **string** |  | [optional] 
+**inventory_account_number** | **string** |  | [optional] 
+**transfer_id** | **int** |  | [optional] 
+**item** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\IvItemReference**](IvItemReference.md) |  | [optional] 
+**gl_item_id** | **string** |  | [optional] 
+**sales_description** | **string** |  | [optional] 
+**item_description** | **string** |  | [optional] 
+**currency** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference**](CurrencyReference.md) |  | [optional] 
+**item_price** | **double** |  | [optional] 
+**taxable** | **bool** |  | [optional] 
+**unit_of_measure** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\UnitOfMeasureReference**](UnitOfMeasureReference.md) |  | [optional] 
+**quantity** | **double** |  | [optional] 
+**cost** | **double** |  | [optional] 
+**total** | **double** |  | [optional] 
+**sub_category** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ProductSubCategoryReference**](ProductSubCategoryReference.md) |  | [optional] 
+**serialized_flag** | **bool** |  | [optional] 
+**serial_numbers** | **string** |  | [optional] 
+**shipment_method** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ShipmentMethodReference**](ShipmentMethodReference.md) |  | [optional] 
+**bin** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\WarehouseBinReference**](WarehouseBinReference.md) |  | [optional] 
+**warehouse** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\WarehouseReference**](WarehouseReference.md) |  | [optional] 
+**transfer_from_bin** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\WarehouseBinReference**](WarehouseBinReference.md) |  | [optional] 
+**transfer_from_location_xref** | **string** |  | [optional] 
+**transfer_to_bin** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\WarehouseBinReference**](WarehouseBinReference.md) |  | [optional] 
+**transfer_to_location_xref** | **string** |  | [optional] 
+**location_xref** | **string** |  | [optional] 
+**price_level_xref** | **string** |  | [optional] 
+**uom_schedule_xref** | **string** |  | [optional] 
+**item_type_xref** | **string** |  | [optional] 
+**inventory_xref** | **string** |  | [optional] 
+**cogs_xref** | **string** |  | [optional] 
+**tax_note** | **string** |  | [optional] 
+**tax_code** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference**](TaxCodeReference.md) |  | [optional] 
+**offset** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\GLExportInventoryTransferOffset**](GLExportInventoryTransferOffset.md) |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

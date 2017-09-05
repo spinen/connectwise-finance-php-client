@@ -33,7 +33,7 @@ namespace Spinen\ConnectWise\Clients\Finance;
  * MemberReferenceTest Class Doc Comment
  *
  * @category    Class */
-// * @description MemberReference
+// * @description Vendor Can be either Member or Company Reference
 /**
  * @package     Spinen\ConnectWise\Clients\Finance
  * @author      Swagger Codegen team

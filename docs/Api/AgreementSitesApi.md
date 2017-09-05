@@ -15,7 +15,7 @@ Method | HTTP request | Description
 
 
 # **financeAgreementsIdSitesCountGet**
-> \Spinen\ConnectWise\Clients\Finance\Model\Count financeAgreementsIdSitesCountGet($id, $conditions)
+> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count financeAgreementsIdSitesCountGet($id, $conditions)
 
 
 
@@ -52,7 +52,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Model\Count**](../Model/Count.md)
+[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Count**](../Model/Count.md)
 
 ### Authorization
 
@@ -66,7 +66,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAgreementsIdSitesGet**
-> \Spinen\ConnectWise\Clients\Finance\Model\AgreementSite[] financeAgreementsIdSitesGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
+> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementSite[] financeAgreementsIdSitesGet($id, $conditions, $order_by, $childconditions, $customfieldconditions, $page, $page_size)
 
 
 
@@ -113,7 +113,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Model\AgreementSite[]**](../Model/AgreementSite.md)
+[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementSite[]**](../Model/AgreementSite.md)
 
 ### Authorization
 
@@ -127,7 +127,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAgreementsIdSitesPost**
-> \Spinen\ConnectWise\Clients\Finance\Model\AgreementSite financeAgreementsIdSitesPost($id, $site)
+> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementSite financeAgreementsIdSitesPost($id, $site)
 
 
 
@@ -144,7 +144,7 @@ Spinen\ConnectWise\Clients\Finance\Configuration::getDefaultConfiguration()->set
 
 $api_instance = new Spinen\ConnectWise\Clients\Finance\Api\AgreementSitesApi();
 $id = 56; // int | 
-$site = new \Spinen\ConnectWise\Clients\Finance\Model\AgreementSite(); // \Spinen\ConnectWise\Clients\Finance\Model\AgreementSite | 
+$site = new \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementSite(); // \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementSite | 
 
 try {
     $result = $api_instance->financeAgreementsIdSitesPost($id, $site);
@@ -160,11 +160,11 @@ try {
 Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
- **site** | [**\Spinen\ConnectWise\Clients\Finance\Model\AgreementSite**](../Model/\Spinen\ConnectWise\Clients\Finance\Model\AgreementSite.md)|  |
+ **site** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementSite**](../Model/\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementSite.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Model\AgreementSite**](../Model/AgreementSite.md)
+[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementSite**](../Model/AgreementSite.md)
 
 ### Authorization
 
@@ -228,7 +228,7 @@ void (empty response body)
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAgreementsIdSitesSiteIdGet**
-> \Spinen\ConnectWise\Clients\Finance\Model\AgreementSite financeAgreementsIdSitesSiteIdGet($id, $site_id)
+> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementSite financeAgreementsIdSitesSiteIdGet($id, $site_id)
 
 
 
@@ -265,7 +265,7 @@ Name | Type | Description  | Notes
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Model\AgreementSite**](../Model/AgreementSite.md)
+[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementSite**](../Model/AgreementSite.md)
 
 ### Authorization
 
@@ -279,7 +279,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAgreementsIdSitesSiteIdPatch**
-> \Spinen\ConnectWise\Clients\Finance\Model\AgreementSite financeAgreementsIdSitesSiteIdPatch($id, $site_id, $operations)
+> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementSite financeAgreementsIdSitesSiteIdPatch($id, $site_id, $operations)
 
 
 
@@ -297,7 +297,7 @@ Spinen\ConnectWise\Clients\Finance\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Finance\Api\AgreementSitesApi();
 $id = 56; // int | 
 $site_id = 56; // int | 
-$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[] | 
+$operations = array(new PatchOperation()); // \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[] | 
 
 try {
     $result = $api_instance->financeAgreementsIdSitesSiteIdPatch($id, $site_id, $operations);
@@ -314,11 +314,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **site_id** | **int**|  |
- **operations** | [**\Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
+ **operations** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\PatchOperation[]**](../Model/PatchOperation.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Model\AgreementSite**](../Model/AgreementSite.md)
+[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementSite**](../Model/AgreementSite.md)
 
 ### Authorization
 
@@ -332,7 +332,7 @@ Name | Type | Description  | Notes
 [[Back to top]](#) [[Back to API list]](../../README.md#documentation-for-api-endpoints) [[Back to Model list]](../../README.md#documentation-for-models) [[Back to README]](../../README.md)
 
 # **financeAgreementsIdSitesSiteIdPut**
-> \Spinen\ConnectWise\Clients\Finance\Model\AgreementSite financeAgreementsIdSitesSiteIdPut($id, $site_id, $site)
+> \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementSite financeAgreementsIdSitesSiteIdPut($id, $site_id, $site)
 
 
 
@@ -350,7 +350,7 @@ Spinen\ConnectWise\Clients\Finance\Configuration::getDefaultConfiguration()->set
 $api_instance = new Spinen\ConnectWise\Clients\Finance\Api\AgreementSitesApi();
 $id = 56; // int | 
 $site_id = 56; // int | 
-$site = new \Spinen\ConnectWise\Clients\Finance\Model\AgreementSite(); // \Spinen\ConnectWise\Clients\Finance\Model\AgreementSite | 
+$site = new \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementSite(); // \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementSite | 
 
 try {
     $result = $api_instance->financeAgreementsIdSitesSiteIdPut($id, $site_id, $site);
@@ -367,11 +367,11 @@ Name | Type | Description  | Notes
 ------------- | ------------- | ------------- | -------------
  **id** | **int**|  |
  **site_id** | **int**|  |
- **site** | [**\Spinen\ConnectWise\Clients\Finance\Model\AgreementSite**](../Model/\Spinen\ConnectWise\Clients\Finance\Model\AgreementSite.md)|  |
+ **site** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementSite**](../Model/\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementSite.md)|  |
 
 ### Return type
 
-[**\Spinen\ConnectWise\Clients\Finance\Model\AgreementSite**](../Model/AgreementSite.md)
+[**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\AgreementSite**](../Model/AgreementSite.md)
 
 ### Authorization
 

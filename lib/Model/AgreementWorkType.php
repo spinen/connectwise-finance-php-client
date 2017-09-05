@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Finance\Model;
+namespace Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model;
 
 use \ArrayAccess;
 
@@ -56,7 +56,7 @@ class AgreementWorkType implements ArrayAccess
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-        'work_type' => '\Spinen\ConnectWise\Clients\Finance\Model\WorkTypeReference',
+        'work_type' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\WorkTypeReference',
         'location_id' => 'int',
         'rate_type' => 'string',
         'bill_time' => 'string',
@@ -67,12 +67,12 @@ class AgreementWorkType implements ArrayAccess
         'overage_rate' => 'double',
         'overage_rate_type' => 'string',
         'agreement_limit' => 'double',
-        'site' => '\Spinen\ConnectWise\Clients\Finance\Model\SiteReference',
+        'site' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\SiteReference',
         'effective_date' => '\DateTime',
         'ending_date' => '\DateTime',
         'agreement_id' => 'int',
-        'company' => '\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference',
-        '_info' => '\Spinen\ConnectWise\Clients\Finance\Model\Metadata'
+        'company' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference',
+        '_info' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -343,7 +343,7 @@ class AgreementWorkType implements ArrayAccess
 
     /**
      * Gets work_type
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\WorkTypeReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\WorkTypeReference
      */
     public function getWorkType()
     {
@@ -352,7 +352,7 @@ class AgreementWorkType implements ArrayAccess
 
     /**
      * Sets work_type
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\WorkTypeReference $work_type
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\WorkTypeReference $work_type
      * @return $this
      */
     public function setWorkType($work_type)
@@ -586,7 +586,7 @@ class AgreementWorkType implements ArrayAccess
 
     /**
      * Gets site
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\SiteReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\SiteReference
      */
     public function getSite()
     {
@@ -595,7 +595,7 @@ class AgreementWorkType implements ArrayAccess
 
     /**
      * Sets site
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\SiteReference $site
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\SiteReference $site
      * @return $this
      */
     public function setSite($site)
@@ -670,7 +670,7 @@ class AgreementWorkType implements ArrayAccess
 
     /**
      * Gets company
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\CompanyReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference
      */
     public function getCompany()
     {
@@ -679,7 +679,7 @@ class AgreementWorkType implements ArrayAccess
 
     /**
      * Sets company
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\CompanyReference $company
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CompanyReference $company
      * @return $this
      */
     public function setCompany($company)
@@ -691,7 +691,7 @@ class AgreementWorkType implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata
      */
     public function getInfo()
     {
@@ -700,7 +700,7 @@ class AgreementWorkType implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)

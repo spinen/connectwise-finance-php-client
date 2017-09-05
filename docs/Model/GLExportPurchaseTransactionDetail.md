@@ -1,0 +1,53 @@
+# GLExportPurchaseTransactionDetail
+
+## Properties
+Name | Type | Description | Notes
+------------ | ------------- | ------------- | -------------
+**id** | **int** |  | [optional] 
+**document_date** | [**\DateTime**](\DateTime.md) |  | [optional] 
+**gl_class** | **string** |  | [optional] 
+**gl_type_id** | **string** |  | [optional] 
+**gl_item_id** | **string** |  | [optional] 
+**sales_code** | **string** |  | [optional] 
+**description** | **string** |  | [optional] 
+**cost** | **double** |  | [optional] 
+**memo** | **string** |  | [optional] 
+**tax_note** | **string** |  | [optional] 
+**vendor_number** | **string** |  | [optional] 
+**account_number** | **string** |  | [optional] 
+**cost_account_number** | **string** |  | [optional] 
+**inventory_account_number** | **string** |  | [optional] 
+**vendor_account_number** | **string** |  | [optional] 
+**item** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\IvItemReference**](IvItemReference.md) |  | [optional] 
+**item_description** | **string** |  | [optional] 
+**sales_description** | **string** |  | [optional] 
+**taxable** | **bool** |  | [optional] 
+**item_price** | **double** |  | [optional] 
+**item_cost** | **double** |  | [optional] 
+**unit_of_measure** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\UnitOfMeasureReference**](UnitOfMeasureReference.md) |  | [optional] 
+**quantity** | **double** |  | [optional] 
+**total** | **double** |  | [optional] 
+**currency** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\CurrencyReference**](CurrencyReference.md) |  | [optional] 
+**serialized_flag** | **bool** |  | [optional] 
+**serial_numbers** | **string** |  | [optional] 
+**drop_shipped_flag** | **bool** |  | [optional] 
+**line_number** | **int** |  | [optional] 
+**warehouse_bin** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\WarehouseBinReference**](WarehouseBinReference.md) |  | [optional] 
+**warehouse_site** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\SiteReference**](SiteReference.md) |  | [optional] 
+**sub_category** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ProductSubCategoryReference**](ProductSubCategoryReference.md) |  | [optional] 
+**shipment_method** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ShipmentMethodReference**](ShipmentMethodReference.md) |  | [optional] 
+**item_type_xref** | **string** |  | [optional] 
+**inventory_xref** | **string** |  | [optional] 
+**cogs_xref** | **string** |  | [optional] 
+**uom_schedule_xref** | **string** |  | [optional] 
+**price_level_xref** | **string** |  | [optional] 
+**location_xref** | **string** |  | [optional] 
+**tax_code** | [**\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\TaxCodeReference**](TaxCodeReference.md) |  | [optional] 
+**purchase_header_tax_group** | **string** |  | [optional] 
+**tax_code_xref** | **string** |  | [optional] 
+**tax_rate** | **double** |  | [optional] 
+**tax_agency_xref** | **string** |  | [optional] 
+
+[[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
+
+

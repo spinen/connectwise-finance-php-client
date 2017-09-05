@@ -27,7 +27,7 @@
  * Do not edit the class manually.
  */
 
-namespace Spinen\ConnectWise\Clients\Finance\Model;
+namespace Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model;
 
 use \ArrayAccess;
 
@@ -56,11 +56,11 @@ class BoardDefault implements ArrayAccess
       */
     protected static $swaggerTypes = [
         'id' => 'int',
-        'board' => '\Spinen\ConnectWise\Clients\Finance\Model\BoardReference',
-        'service_type' => '\Spinen\ConnectWise\Clients\Finance\Model\ServiceTypeReference',
+        'board' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BoardReference',
+        'service_type' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ServiceTypeReference',
         'default_flag' => 'bool',
         'agreement_id' => 'int',
-        '_info' => '\Spinen\ConnectWise\Clients\Finance\Model\Metadata'
+        '_info' => '\Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata'
     ];
 
     public static function swaggerTypes()
@@ -200,7 +200,7 @@ class BoardDefault implements ArrayAccess
 
     /**
      * Gets board
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\BoardReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BoardReference
      */
     public function getBoard()
     {
@@ -209,7 +209,7 @@ class BoardDefault implements ArrayAccess
 
     /**
      * Sets board
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\BoardReference $board
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\BoardReference $board
      * @return $this
      */
     public function setBoard($board)
@@ -221,7 +221,7 @@ class BoardDefault implements ArrayAccess
 
     /**
      * Gets service_type
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\ServiceTypeReference
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ServiceTypeReference
      */
     public function getServiceType()
     {
@@ -230,7 +230,7 @@ class BoardDefault implements ArrayAccess
 
     /**
      * Sets service_type
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\ServiceTypeReference $service_type
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\ServiceTypeReference $service_type
      * @return $this
      */
     public function setServiceType($service_type)
@@ -284,7 +284,7 @@ class BoardDefault implements ArrayAccess
 
     /**
      * Gets _info
-     * @return \Spinen\ConnectWise\Clients\Finance\Model\Metadata
+     * @return \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata
      */
     public function getInfo()
     {
@@ -293,7 +293,7 @@ class BoardDefault implements ArrayAccess
 
     /**
      * Sets _info
-     * @param \Spinen\ConnectWise\Clients\Finance\Model\Metadata $_info Metadata of the entity
+     * @param \Spinen\ConnectWise\Clients\Finance\Spinen\ConnectWise\Clients\Finance\Model\Metadata $_info Metadata of the entity
      * @return $this
      */
     public function setInfo($_info)
